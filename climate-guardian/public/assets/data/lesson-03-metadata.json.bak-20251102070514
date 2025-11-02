@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "type": "Speleothem",
+      "dataset_short_name": "Xianglong XL-16",
+      "doi": "10.25921/8d0j-jt40",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/speleothem/asia/china/xianglong2018-xl16-noaa.txt",
+      "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/xianglong2018-xl16-noaa.txt",
+      "units": "growth rate (mm/yr)"
+    },
+    {
+      "type": "Paleolimnology",
+      "dataset_short_name": "Lake Walker Grain Size",
+      "doi": "10.25921/9y0x-m754",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/paleolimnology/northamerica/canada/pq/walker2021gs.txt",
+      "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/walker2021gs.txt",
+      "units": "D50 (µm)"
+    }
+  ],
+  "derived_csv": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/assets/data/lesson-03-sample.csv",
+  "download_date": "2025-11-01",
+  "license_note": "NOAA/WDS Paleoclimatology data; follow NOAA citation guidelines."
+}

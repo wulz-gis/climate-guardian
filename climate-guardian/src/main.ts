@@ -10,8 +10,14 @@ import './style.css'
 import { defaultConfig, buildSlides } from './utils/reveal'
 import { renderChart } from './components/ChartRenderer'
 
+/**
+ * 启动应用：加载幻灯片 JSON，渲染 DOM，并初始化 Reveal 与图表。
+ * - 使用 import.meta.env.BASE_URL 保证在 GitHub Pages 子路径下能正确解析资源。
+ */
 async function bootstrap(): Promise<void> {
-  const res = await fetch('/src/slides/lesson-01.json')
+  // 生产环境下从 public/slides 读取课件 JSON
+  const slidesUrl = new URL('slides/lesson-01.json', import.meta.env.BASE_URL).toString()
+  const res = await fetch(slidesUrl)
   const json = await res.json()
 
   // 注入幻灯片 DOM

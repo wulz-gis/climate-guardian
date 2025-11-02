@@ -1,0 +1,81 @@
+{
+  "lesson": 10,
+  "title": "四季的温度密码",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "四季的温度密码",
+      "subtitle": "气候小卫士 | 第10课",
+      "duration": 40
+    },
+    {
+      "type": "objective",
+      "title": "本课目标",
+      "bullets": [
+        "认识四季温度的变化特征",
+        "学会记录和比较季节温度",
+        "了解不同地区的季节差异"
+      ],
+      "duration": 90
+    },
+    {
+      "type": "video",
+      "title": "情景导入",
+      "video": "/assets/videos/lesson-10-intro.mp4",
+      "placeholder": "/assets/images/lesson-10-intro.jpg",
+      "questions": ["视频中哪座城市冬季更冷？为什么？"],
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "四季变化规律",
+      "content": "夏季最热，冬季最冷，春秋过渡，呈现\"一峰一谷\"的年变化曲线",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "形成原因",
+      "content": "地球公转和地轴倾斜导致太阳高度角变化",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "影响因素",
+      "content": "纬度、海陆分布、海拔高度都会影响四季温度变化",
+      "duration": 120
+    },
+    {
+      "type": "chart",
+      "title": "年温度变化曲线",
+      "chartType": "line",
+      "dataSrc": "/assets/data/lesson-10-annual-temp.csv",
+      "duration": 180
+    },
+    {
+      "type": "interaction",
+      "title": "互动对比",
+      "task": "对比不同城市四季温度，在地图上查看地区差异",
+      "duration": 180
+    },
+    {
+      "type": "discussion",
+      "title": "讨论思考",
+      "questions": [
+        "全球变暖对四季温度变化有什么影响？",
+        "为什么有些地区四季分明，有些地区不明显？"
+      ],
+      "duration": 180
+    },
+    {
+      "type": "summary",
+      "title": "要点回顾",
+      "bullets": [
+        "四季温度呈现规律性年变化",
+        "太阳高度角是四季变化的主因",
+        "地理位置造成显著的区域差异"
+      ],
+      "duration": 90
+    }
+  ]
+}

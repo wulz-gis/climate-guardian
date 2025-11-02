@@ -1,0 +1,66 @@
+{
+  "title": "融化的冰川",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "融化的冰川",
+      "subtitle": "探索冰川退缩的现象与影响",
+      "duration": 3
+    },
+    {
+      "type": "objective",
+      "title": "学习目标",
+      "objectives": [
+        "认识冰川的形成与类型",
+        "理解冰川融化与退缩的主要驱动因素",
+        "学会用图片与数据读懂冰川退缩、质量平衡与海平面影响"
+      ],
+      "duration": 2
+    },
+    {
+      "type": "video",
+      "title": "同一冰川不同时期前沿对比",
+      "videoSrc": "https://example.com/videos/glacier-retreat-comparison.mp4",
+      "duration": 5
+    },
+    {
+      "type": "concept",
+      "title": "冰川形成与类型",
+      "content": "积雪压实成冰，形成山地冰川、冰原、冰盖等不同类型",
+      "duration": 8
+    },
+    {
+      "type": "chart",
+      "title": "冰川质量平衡变化",
+      "chartType": "line",
+      "dataSrc": "data/glacier-mass-balance.csv",
+      "duration": 10
+    },
+    {
+      "type": "interaction",
+      "title": "冰川退缩交互观察",
+      "content": "使用示例冰川终点位置与质量平衡时间序列，观察退缩阶段与波动",
+      "duration": 12
+    },
+    {
+      "type": "discussion",
+      "title": "讨论与思考",
+      "questions": [
+        "冰川变化对水资源与安全（冰湖溃决）的影响是什么？",
+        "我们如何用数据与图片讲清冰川融化与人类活动的关系？"
+      ],
+      "duration": 5
+    },
+    {
+      "type": "summary",
+      "title": "课程总结",
+      "keyPoints": [
+        "冰川退缩是全球变暖的重要证据",
+        "质量平衡反映冰川健康状况",
+        "对水资源和海平面有重要影响"
+      ],
+      "duration": 3
+    }
+  ]
+}

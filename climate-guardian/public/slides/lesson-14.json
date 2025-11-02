@@ -1,0 +1,81 @@
+{
+  "lesson": 14,
+  "title": "气温变化的空间差异",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "气温变化的空间差异",
+      "subtitle": "气候小卫士 | 第14课",
+      "duration": 40
+    },
+    {
+      "type": "objective",
+      "title": "本课目标",
+      "bullets": [
+        "认识不同地区气温变化速率的空间差异",
+        "学会读图识别增温热点/缓慢区域",
+        "理解影响空间差异的因素"
+      ],
+      "duration": 90
+    },
+    {
+      "type": "video",
+      "title": "情景导入",
+      "video": "/assets/videos/lesson-14-intro.mp4",
+      "placeholder": "/assets/images/lesson-14-intro.jpg",
+      "questions": ["哪里变暖更快？为何？"],
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "空间表达",
+      "content": "栅格数据、等值线与热力图；颜色与图例表示变化速率",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "影响因素",
+      "content": "纬度与辐射、海陆差异与洋流、地形屏障、城市热岛",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "读图方法",
+      "content": "识别热点、低值区、梯度方向与可能成因",
+      "duration": 120
+    },
+    {
+      "type": "chart",
+      "title": "增温速率热力图",
+      "chartType": "heatmap",
+      "dataSrc": "/assets/data/lesson-14-warming-spatial.csv",
+      "duration": 180
+    },
+    {
+      "type": "interaction",
+      "title": "空间分析",
+      "task": "点击区域查看时间序列，构建南北向或东西向剖面",
+      "duration": 180
+    },
+    {
+      "type": "discussion",
+      "title": "讨论思考",
+      "questions": [
+        "哪些人群更受空间差异影响？",
+        "我们能在校园与社区层面做哪些空间优化？"
+      ],
+      "duration": 180
+    },
+    {
+      "type": "summary",
+      "title": "要点回顾",
+      "bullets": [
+        "增温速率存在显著空间差异",
+        "多因素共同作用造成差异",
+        "识别热点有助于制定适应策略"
+      ],
+      "duration": 90
+    }
+  ]
+}

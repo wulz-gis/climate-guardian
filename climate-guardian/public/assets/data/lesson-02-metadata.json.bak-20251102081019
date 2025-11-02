@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "type": "Tree Ring (ITRDB)",
+      "dataset_short_name": "CANA426",
+      "dataset_doi": null,
+      "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana426-rwl-noaa.txt",
+      "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/cana426-rwl-noaa.txt",
+      "units": "ring width (mm)",
+      "citation_guidelines_url": "https://www.ncei.noaa.gov/access/paleo-search/citation",
+      "citation": "NOAA NCEI, WDS Paleoclimatology: Tree Ring Measurements, site CANA426. Accessed 2025-11-01."
+    },
+    {
+      "type": "Ice Core (NGRIP)",
+      "dataset_short_name": "GICC05 Holocene 20yr",
+      "dataset_doi": "10.25921/pnba-f878",
+      "publication_doi": "10.1029/2005JD006921",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/icecore/greenland/summit/ngrip/vinther2006-gicc05-holocene-ngrip-20yr-noaa.txt",
+      "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/vinther2006-gicc05-holocene-ngrip-20yr-noaa.txt",
+      "units": "δ18O (‰)",
+      "citation_guidelines_url": "https://www.ncei.noaa.gov/access/paleo-search/citation",
+      "citation": "NOAA NCEI, WDS Paleoclimatology: NGRIP Holocene δ18O (20-yr). Dataset DOI 10.25921/pnba-f878. Accessed 2025-11-01."
+    }
+  ],
+  "derived_csv": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/assets/data/lesson-02-sample.csv",
+  "download_date": "2025-11-01",
+  "license_note": "NOAA/WDS Paleoclimatology data; follow NOAA citation guidelines."
+}

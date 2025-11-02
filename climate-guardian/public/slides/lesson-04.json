@@ -1,0 +1,81 @@
+{
+  "lesson": 4,
+  "title": "温度的魔法",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "温度的魔法",
+      "subtitle": "气候小卫士 | 第4课",
+      "duration": 40
+    },
+    {
+      "type": "objective",
+      "title": "本课目标",
+      "bullets": [
+        "理解温度对日常生活的影响",
+        "学会记录和比较不同环境的温度",
+        "发现温度变化的规律"
+      ],
+      "duration": 90
+    },
+    {
+      "type": "video",
+      "title": "情景导入",
+      "video": "/assets/videos/lesson-04-intro.mp4",
+      "placeholder": "/assets/images/lesson-04-intro.jpg",
+      "questions": ["视频中哪个时段最热/最冷？为什么？"],
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "温度的定义",
+      "content": "表示物体冷热程度的物理量，影响衣着、活动、植物生长",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "温度变化规律",
+      "content": "日变化、季节变化、地区差异，受太阳辐射、地理位置影响",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "影响因素",
+      "content": "太阳辐射、云量、风、地表材料、季节变化",
+      "duration": 120
+    },
+    {
+      "type": "chart",
+      "title": "校园温度分布",
+      "chartType": "heatmap",
+      "dataSrc": "/assets/data/lesson-04-campus-temp.csv",
+      "duration": 180
+    },
+    {
+      "type": "interaction",
+      "title": "互动分析",
+      "task": "查看不同位置温度差异，分析影响温度的主要因素",
+      "duration": 180
+    },
+    {
+      "type": "discussion",
+      "title": "讨论思考",
+      "questions": [
+        "温度变化对我们的生活有什么影响？",
+        "如何根据温度变化调整衣着和活动？"
+      ],
+      "duration": 180
+    },
+    {
+      "type": "summary",
+      "title": "要点回顾",
+      "bullets": [
+        "温度影响日常生活的方方面面",
+        "不同环境位置温度存在差异",
+        "了解规律有助于合理安排生活"
+      ],
+      "duration": 90
+    }
+  ]
+}

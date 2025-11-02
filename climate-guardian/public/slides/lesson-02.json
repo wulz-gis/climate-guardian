@@ -1,0 +1,81 @@
+{
+  "lesson": 2,
+  "title": "神奇的树轮和冰芯",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "神奇的树轮和冰芯",
+      "subtitle": "气候小卫士 | 第2课",
+      "duration": 40
+    },
+    {
+      "type": "objective",
+      "title": "本课目标",
+      "bullets": [
+        "认识树轮、冰芯等自然\"温度计\"",
+        "理解自然记录介质的工作原理",
+        "培养对科学探索的兴趣"
+      ],
+      "duration": 90
+    },
+    {
+      "type": "video",
+      "title": "情景导入",
+      "video": "/assets/videos/lesson-02-intro.mp4",
+      "placeholder": "/assets/images/lesson-02-intro.jpg",
+      "questions": ["从视频里如何识别年份与气候差异？"],
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "树轮的形成",
+      "content": "树木每年长一圈，温度适宜时生长快，形成宽树轮",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "树轮与气候",
+      "content": "宽树轮=温暖湿润年份，窄树轮=寒冷干旱年份",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "冰芯的记录",
+      "content": "像蛋糕一样，每层都有气候信息，科学家可读取历史数据",
+      "duration": 120
+    },
+    {
+      "type": "chart",
+      "title": "树轮宽度变化",
+      "chartType": "line",
+      "dataSrc": "/assets/data/lesson-02-tree-rings.csv",
+      "duration": 180
+    },
+    {
+      "type": "interaction",
+      "title": "互动观察",
+      "task": "查看树轮与冰芯图片，识别宽/窄年轮与年层，分析气候信息",
+      "duration": 180
+    },
+    {
+      "type": "discussion",
+      "title": "讨论思考",
+      "questions": [
+        "哪些年份更温暖/更寒冷？",
+        "还有哪些自然现象可以告诉我们过去的气候？"
+      ],
+      "duration": 180
+    },
+    {
+      "type": "summary",
+      "title": "要点回顾",
+      "bullets": [
+        "树轮宽度反映气候条件",
+        "冰芯层理记录环境变化",
+        "自然界是地球历史的见证者"
+      ],
+      "duration": 90
+    }
+  ]
+}
