@@ -42,9 +42,15 @@ jobs:
 
       # 下载引导视频到 public/assets/videos，使其随构建一并发布
       - name: Download intro videos
+        continue-on-error: true
         run: |
           chmod +x .github/scripts/fetch_videos.sh
           .github/scripts/fetch_videos.sh
+
+      - name: List videos directory (debug)
+        run: |
+          ls -lah climate-guardian/public/assets/videos || true
+          ls -lah climate-guardian/public/assets/videos/downloads || true
 
       - name: Build
         run: |
