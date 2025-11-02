@@ -33,6 +33,19 @@ jobs:
           cd climate-guardian
           npm ci
 
+      # 缓存已下载的视频，避免每次都重复下载
+      - name: Cache downloaded videos
+        uses: actions/cache@v4
+        with:
+          path: climate-guardian/public/assets/videos
+          key: videos-${{ hashFiles('assets/videos/lesson-key-video-links.csv') }}
+
+      # 下载引导视频到 public/assets/videos，使其随构建一并发布
+      - name: Download intro videos
+        run: |
+          chmod +x .github/scripts/fetch_videos.sh
+          .github/scripts/fetch_videos.sh
+
       - name: Build
         run: |
           cd climate-guardian
@@ -42,6 +55,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: climate-guardian/dist
+
+      - name: Summary on failure
+        if: failure()
+        run: |
+          echo "视频下载或构建失败，请检查 Actions 日志" >> $GITHUB_STEP_SUMMARY
 
   deploy:
     environment:
