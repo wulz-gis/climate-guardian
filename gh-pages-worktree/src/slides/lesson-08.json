@@ -1,0 +1,81 @@
+{
+  "lesson": 8,
+  "title": "洪水和干旱",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "洪水和干旱",
+      "subtitle": "气候小卫士 | 第8课",
+      "duration": 40
+    },
+    {
+      "type": "objective",
+      "title": "本课目标",
+      "bullets": [
+        "了解洪水与干旱的形成机制与主要影响",
+        "学会识别洪水/干旱预警信号与风险区域",
+        "掌握基本的防灾与应对策略"
+      ],
+      "duration": 90
+    },
+    {
+      "type": "video",
+      "title": "情景导入",
+      "video": "/assets/videos/lesson-08-intro.mp4",
+      "placeholder": "/assets/images/lesson-08-intro.jpg",
+      "questions": ["同样的降雨量，为什么不同城市的影响差异很大？"],
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "洪水类型",
+      "content": "山洪、城市内涝、河流洪水；强降雨、汇流、排水不良是成因",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "干旱类型",
+      "content": "气象干旱（降雨偏少）、农业干旱（土壤墒情）、水文干旱（径流偏低）",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "关键指标",
+      "content": "降雨强度与累计雨量、不透水率、SPI标准化降水指数",
+      "duration": 120
+    },
+    {
+      "type": "chart",
+      "title": "降雨与干旱对比",
+      "chartType": "bar",
+      "dataSrc": "/assets/data/lesson-08-flood-drought.csv",
+      "duration": 180
+    },
+    {
+      "type": "interaction",
+      "title": "风险分析",
+      "task": "查看降雨数据与不透水率，标注安全路径与避险点",
+      "duration": 180
+    },
+    {
+      "type": "discussion",
+      "title": "讨论思考",
+      "questions": [
+        "基础设施与自然缓冲的作用？",
+        "个人与社区应如何提升防灾韧性？"
+      ],
+      "duration": 180
+    },
+    {
+      "type": "summary",
+      "title": "要点回顾",
+      "bullets": [
+        "洪水和干旱有不同的预警信号",
+        "了解风险区域很重要",
+        "防灾策略包括工程和非工程措施"
+      ],
+      "duration": 90
+    }
+  ]
+}

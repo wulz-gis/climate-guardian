@@ -1,0 +1,81 @@
+{
+  "lesson": 7,
+  "title": "高温和热浪",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "高温和热浪",
+      "subtitle": "气候小卫士 | 第7课",
+      "duration": 40
+    },
+    {
+      "type": "objective",
+      "title": "本课目标",
+      "bullets": [
+        "了解高温与热浪的定义、成因及危害",
+        "学会识别高温预警信号与风险分级",
+        "掌握高温防护与安全降温的基本策略"
+      ],
+      "duration": 90
+    },
+    {
+      "type": "video",
+      "title": "情景导入",
+      "video": "/assets/videos/lesson-07-intro.mp4",
+      "placeholder": "/assets/images/lesson-07-intro.jpg",
+      "questions": ["为什么同样的气温，在不同环境下体感会不同？"],
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "高温与热浪",
+      "content": "连续高温天与阈值标准，受辐射、湿度、风等因素影响",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "体感温度",
+      "content": "温度与湿度的共同作用，热指数反映真实感受",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "城市热岛效应",
+      "content": "下垫面材料、绿地与通风对温度的影响",
+      "duration": 120
+    },
+    {
+      "type": "chart",
+      "title": "热指数变化",
+      "chartType": "line",
+      "dataSrc": "/assets/data/lesson-07-heat-index.csv",
+      "duration": 180
+    },
+    {
+      "type": "interaction",
+      "title": "交互分析",
+      "task": "查看热指数仪表，对比气温与体感温度，选择防护措施",
+      "duration": 180
+    },
+    {
+      "type": "discussion",
+      "title": "讨论思考",
+      "questions": [
+        "为何夜间热浪也危险？",
+        "校园与社区可采取哪些降温与增绿措施？"
+      ],
+      "duration": 180
+    },
+    {
+      "type": "summary",
+      "title": "要点回顾",
+      "bullets": [
+        "高温预警有不同等级",
+        "体感温度比实际温度更重要",
+        "防护措施包括补水、避晒、通风"
+      ],
+      "duration": 90
+    }
+  ]
+}

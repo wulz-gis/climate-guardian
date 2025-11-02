@@ -1,0 +1,11 @@
+{
+  "dataset_short_name": "MERGED_TP_J1_OSTM_OST_GMSL_ASCII_V52",
+  "doi": "10.5067/GMSLM-TJ152",
+  "dataset_version": "5.2",
+  "download_date": "2025-11-02",
+  "sha256": "c19af03af18d8d2a12e29c3ecef9c1c4faa48ef7efb52860205949ae57f2d805",
+  "source_url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus/Protected/MERGED_TP_J1_OSTM_OST_GMSL_ASCII_V52/merged_global_sea_level_v5.2.txt",
+  "local_path": "data/data/nasa_gmsl_ascii.txt",
+  "derived_csv": "assets/data/lesson-15-sample.csv",
+  "derived_image": "assets/images/lesson-15-evidence.png"
+}

@@ -1,0 +1,81 @@
+{
+  "lesson": 16,
+  "title": "冰芯记录的气候历史",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "冰芯记录的气候历史",
+      "subtitle": "气候小卫士 | 第16课",
+      "duration": 40
+    },
+    {
+      "type": "objective",
+      "title": "本课目标",
+      "bullets": [
+        "了解冰芯记录的气候信息",
+        "认识冰芯中的温度线索",
+        "培养综合分析能力"
+      ],
+      "duration": 90
+    },
+    {
+      "type": "video",
+      "title": "情景导入",
+      "video": "/assets/videos/lesson-16-intro.mp4",
+      "placeholder": "/assets/images/lesson-16-intro.jpg",
+      "questions": ["冰川是怎么记录气候信息的？"],
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "冰芯形成",
+      "content": "积雪年复一年堆积，形成层状结构，每层都有气候信息",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "气候信息",
+      "content": "氧同位素反映温度，年层厚度反映降水，气泡保存古代空气",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "年代测定",
+      "content": "年层计数、放射性同位素测年，可重建80万年气候历史",
+      "duration": 120
+    },
+    {
+      "type": "chart",
+      "title": "冰芯氧同位素",
+      "chartType": "line",
+      "dataSrc": "/assets/data/lesson-16-ice-core.csv",
+      "duration": 180
+    },
+    {
+      "type": "interaction",
+      "title": "冰芯分析",
+      "task": "查看冰芯剖面图片，识别年层与火山灰等事件标记",
+      "duration": 180
+    },
+    {
+      "type": "discussion",
+      "title": "讨论思考",
+      "questions": [
+        "冰芯记录如何帮助理解现代气候变化？",
+        "冰期-间冰期循环说明了什么？"
+      ],
+      "duration": 180
+    },
+    {
+      "type": "summary",
+      "title": "要点回顾",
+      "bullets": [
+        "冰芯是气候历史的档案馆",
+        "多指标记录环境变化信息",
+        "长期记录揭示气候周期规律"
+      ],
+      "duration": 90
+    }
+  ]
+}

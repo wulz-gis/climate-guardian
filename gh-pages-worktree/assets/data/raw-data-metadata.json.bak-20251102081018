@@ -1,0 +1,75 @@
+{
+  "download_date": "2025-11-01",
+  "sources": [
+    {
+      "dataset_short_name": "GISTEMP_v4",
+      "type": "Temperature (Anomaly)",
+      "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/gistemp_glb_ts_dsst.csv",
+      "source_url": "https://data.giss.nasa.gov/gistemp/",
+      "dataset_doi": null,
+      "sha256": "12844ebf9af5ff40ed0c75fb57ac69545b4a60888aab91d7a838427dbfc9f748",
+      "citation": "GISTEMP Team: GISS Surface Temperature Analysis (GISTEMP v4), NASA GISS. Accessed 2025-11-01.",
+      "citation_guidelines_url": "https://data.giss.nasa.gov/gistemp/faq/"
+    },
+    {
+      "dataset_short_name": "NOAA_MaunaLoa_CO2_monthly",
+      "type": "CO₂ (ppm, monthly)",
+      "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/noaa_mauna_loa_co2_monthly.csv",
+      "source_url": "https://gml.noaa.gov/ccgg/trends/",
+      "dataset_doi": null,
+      "sha256": "9f5e46c802430d39a23843dfa503afefe664c9f4d959c63babd8eda78c2b7cb8",
+      "citation": "NOAA Global Monitoring Laboratory (GML): Mauna Loa CO₂ monthly average. Accessed 2025-11-01.",
+      "citation_guidelines_url": "https://gml.noaa.gov/ccgg/trends/"
+    },
+    {
+      "dataset_short_name": "GMSL_ASCII_V52",
+      "type": "Sea Level (mm)",
+      "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/nasa_gmsl_ascii.txt",
+      "source_url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus/Protected/MERGED_TP_J1_OSTM_OST_GMSL_ASCII_V52/merged_global_sea_level_v5.2.txt",
+      "dataset_doi": "10.5067/GMSLM-TJ152",
+      "sha256": "c19af03af18d8d2a12e29c3ecef9c1c4faa48ef7efb52860205949ae57f2d805",
+      "citation": "NOAA/NASA PO.DAAC: Merged Global Mean Sea Level V5.2 (ASCII). DOI 10.5067/GMSLM-TJ152. Accessed 2025-11-01.",
+      "citation_guidelines_url": "https://podaac.jpl.nasa.gov/"
+    },
+    {
+      "dataset_short_name": "ITRDB_CANA426",
+      "type": "Tree Ring Width (mm)",
+      "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/cana426-rwl-noaa.txt",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana426-rwl-noaa.txt",
+      "dataset_doi": null,
+      "sha256": "37e96f7a7bc3879e593d7ad5032594d7968d6609e2fece9d2a442c47e4b43890",
+      "citation": "NOAA NCEI WDS Paleoclimatology: Tree Ring Measurements CANA426. Accessed 2025-11-01.",
+      "citation_guidelines_url": "https://www.ncei.noaa.gov/access/paleo-search/citation"
+    },
+    {
+      "dataset_short_name": "NGRIP_Holocene_20yr",
+      "type": "Ice Core δ18O (‰)",
+      "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/vinther2006-gicc05-holocene-ngrip-20yr-noaa.txt",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/icecore/greenland/summit/ngrip/vinther2006-gicc05-holocene-ngrip-20yr-noaa.txt",
+      "dataset_doi": "10.25921/pnba-f878",
+      "sha256": "c2c1b0d5b798dc82bbf0bcc533ff9eae37b7acc9109bd03832eecee197808cde",
+      "citation": "NOAA NCEI WDS Paleoclimatology: NGRIP Holocene δ18O (20 yr). DOI 10.25921/pnba-f878. Accessed 2025-11-01.",
+      "citation_guidelines_url": "https://www.ncei.noaa.gov/access/paleo-search/citation"
+    },
+    {
+      "dataset_short_name": "Xianglong_XL16",
+      "type": "Speleothem Growth Rate (mm/yr)",
+      "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/xianglong2018-xl16-noaa.txt",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/speleothem/asia/china/xianglong2018-xl16-noaa.txt",
+      "dataset_doi": "10.25921/8d0j-jt40",
+      "sha256": "65e1feba097bfdbe9f208e66c825e152db984da60f29ec01e3c59b241ba8862d",
+      "citation": "NOAA NCEI WDS Paleoclimatology: Xianglong Cave XL-16 growth rate. DOI 10.25921/8d0j-jt40. Accessed 2025-11-01.",
+      "citation_guidelines_url": "https://www.ncei.noaa.gov/access/paleo-search/citation"
+    },
+    {
+      "dataset_short_name": "LakeWalker_D50",
+      "type": "Grain Size D50 (µm)",
+      "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/walker2021gs.txt",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/paleolimnology/northamerica/canada/pq/walker2021gs.txt",
+      "dataset_doi": "10.25921/9y0x-m754",
+      "sha256": "8b46f5c3feb4c4d0cae10e165adeb53d853d4964a6c9f6ce21d73f1689649787",
+      "citation": "NOAA NCEI WDS Paleoclimatology: Lake Walker grain size D50. DOI 10.25921/9y0x-m754. Accessed 2025-11-01.",
+      "citation_guidelines_url": "https://www.ncei.noaa.gov/access/paleo-search/citation"
+    }
+  ]
+}

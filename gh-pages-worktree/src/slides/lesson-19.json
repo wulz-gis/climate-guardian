@@ -1,0 +1,66 @@
+{
+  "title": "温室气体和二氧化碳排放",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "温室气体和二氧化碳排放",
+      "subtitle": "认识主要温室气体及其来源",
+      "duration": 3
+    },
+    {
+      "type": "objective",
+      "title": "学习目标",
+      "objectives": [
+        "认识主要温室气体及其作用",
+        "理解二氧化碳排放的主要来源与分类",
+        "学会用图片与数据读懂排放结构、趋势与区域差异"
+      ],
+      "duration": 2
+    },
+    {
+      "type": "video",
+      "title": "二氧化碳排放来源与结构",
+      "videoSrc": "https://example.com/videos/co2-emissions-structure.mp4",
+      "duration": 5
+    },
+    {
+      "type": "concept",
+      "title": "温室气体与温室效应",
+      "content": "温室气体吸收并重新辐射热量，维持地球适宜温度。主要气体包括CO₂、CH₄、N₂O等",
+      "duration": 8
+    },
+    {
+      "type": "chart",
+      "title": "二氧化碳排放结构",
+      "chartType": "stacked-bar",
+      "dataSrc": "data/co2-emissions-by-sector.csv",
+      "duration": 10
+    },
+    {
+      "type": "interaction",
+      "title": "排放结构交互观察",
+      "content": "使用示例排放结构数据，在交互堆叠柱状图中查看不同部门占比",
+      "duration": 12
+    },
+    {
+      "type": "discussion",
+      "title": "讨论与思考",
+      "questions": [
+        "为什么不同地区排放结构不同？与经济结构、能源结构有关",
+        "我们能从来源分类入手提出减排建议吗？"
+      ],
+      "duration": 5
+    },
+    {
+      "type": "summary",
+      "title": "课程总结",
+      "keyPoints": [
+        "CO₂是主要的温室气体",
+        "能源、交通、工业是主要排放源",
+        "不同地区排放结构存在差异"
+      ],
+      "duration": 3
+    }
+  ]
+}
