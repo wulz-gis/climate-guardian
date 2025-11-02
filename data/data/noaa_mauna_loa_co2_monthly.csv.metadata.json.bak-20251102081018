@@ -1,0 +1,11 @@
+{
+  "dataset_short_name": "NOAA_MaunaLoa_CO2_monthly",
+  "type": "CO₂ (ppm, monthly)",
+  "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/noaa_mauna_loa_co2_monthly.csv",
+  "source_url": "https://gml.noaa.gov/ccgg/trends/",
+  "dataset_doi": null,
+  "sha256": "9f5e46c802430d39a23843dfa503afefe664c9f4d959c63babd8eda78c2b7cb8",
+  "citation": "NOAA Global Monitoring Laboratory (GML): Mauna Loa CO₂ monthly average. Accessed 2025-11-01.",
+  "created_at": "2025-11-01T23:06:44.211180+00:00",
+  "citation_guidelines_url": "https://gml.noaa.gov/ccgg/trends/"
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_short_name": "NGRIP_Holocene_20yr",
+  "type": "Ice Core δ18O (‰)",
+  "local_path": "data/data/vinther2006-gicc05-holocene-ngrip-20yr-noaa.txt",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/icecore/greenland/summit/ngrip/vinther2006-gicc05-holocene-ngrip-20yr-noaa.txt",
+  "dataset_doi": "10.25921/pnba-f878",
+  "sha256": "c2c1b0d5b798dc82bbf0bcc533ff9eae37b7acc9109bd03832eecee197808cde",
+  "citation": "NOAA NCEI WDS Paleoclimatology: NGRIP Holocene δ18O (20 yr). DOI 10.25921/pnba-f878. Accessed 2025-11-02.",
+  "created_at": "2025-11-02T00:10:18.141139+00:00",
+  "citation_guidelines_url": "https://www.ncei.noaa.gov/access/paleo-search/citation"
+}

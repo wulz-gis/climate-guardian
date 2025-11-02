@@ -1,0 +1,11 @@
+{
+  "dataset_short_name": "GMSL_ASCII_V52",
+  "type": "Sea Level (mm)",
+  "local_path": "data/data/nasa_gmsl_ascii.txt",
+  "source_url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus/Protected/MERGED_TP_J1_OSTM_OST_GMSL_ASCII_V52/merged_global_sea_level_v5.2.txt",
+  "dataset_doi": "10.5067/GMSLM-TJ152",
+  "sha256": "c19af03af18d8d2a12e29c3ecef9c1c4faa48ef7efb52860205949ae57f2d805",
+  "citation": "NOAA/NASA PO.DAAC: Merged Global Mean Sea Level V5.2 (ASCII). DOI 10.5067/GMSLM-TJ152. Accessed 2025-11-02.",
+  "created_at": "2025-11-02T00:10:18.140438+00:00",
+  "citation_guidelines_url": "https://podaac.jpl.nasa.gov/"
+}

@@ -1,0 +1,66 @@
+{
+  "title": "地质时期的气候变化",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "地质时期的气候变化",
+      "subtitle": "探索地球46亿年的气候变迁",
+      "duration": 3
+    },
+    {
+      "type": "objective",
+      "title": "学习目标",
+      "objectives": [
+        "了解地质时期的气候变化历史",
+        "认识冰期-间冰期循环",
+        "培养长时间尺度思考能力"
+      ],
+      "duration": 2
+    },
+    {
+      "type": "video",
+      "title": "地质时期气候与生物复原",
+      "videoSrc": "https://example.com/videos/geological-climate.mp4",
+      "duration": 5
+    },
+    {
+      "type": "concept",
+      "title": "地质时期的气候变化",
+      "content": "地球46亿年历史中的气候变迁，包括重要的温暖期和寒冷期",
+      "duration": 8
+    },
+    {
+      "type": "chart",
+      "title": "地质时期气候变化时间轴",
+      "chartType": "timeline",
+      "dataSrc": "data/geological-climate-timeline.csv",
+      "duration": 10
+    },
+    {
+      "type": "interaction",
+      "title": "地质气候交互时间轴",
+      "content": "使用电子时间轴模板浏览从寒武纪到现代的主要气候事件与证据图片",
+      "duration": 12
+    },
+    {
+      "type": "discussion",
+      "title": "讨论与思考",
+      "questions": [
+        "为什么研究地质时期的气候变化对理解现代气候变化很重要？",
+        "从地质气候变化的历史中，我们能学到什么经验教训？"
+      ],
+      "duration": 5
+    },
+    {
+      "type": "summary",
+      "title": "课程总结",
+      "keyPoints": [
+        "地质时期气候变化主要由自然因素驱动",
+        "变化速率相对缓慢",
+        "冷暖交替、时间尺度长"
+      ],
+      "duration": 3
+    }
+  ]
+}

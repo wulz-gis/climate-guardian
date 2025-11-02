@@ -1,0 +1,742 @@
+# North GRIP - Greenland Ice Core Chronology 2005 (GICC05) Holocene section, 20-year resolution
+#----------------------------------------------------
+#                World Data Service for Paleoclimatology, Boulder
+#                                  and
+#                     NOAA Paleoclimatology Program
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------
+# Template Version 4.0
+# Encoding: UTF-8
+# NOTE: Please cite original publication, NOAA Landing Page URL, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, study title, NOAA Landing Page URL, and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# NOAA_Landing_Page: https://www.ncei.noaa.gov/access/paleo-search/study/2494
+#   Landing_Page_Description: NOAA Landing Page of this file's parent study, which includes all study metadata.
+#
+# Study_Level_JSON_Metadata: https://www.ncei.noaa.gov/pub/data/metadata/published/paleo/json/noaa-icecore-2494.json
+#   Study_Level_JSON_Description: JSON metadata of this data file's parent study, which includes all study metadata.
+#
+# Data_Type: Ice Cores
+#
+# Dataset_DOI: 10.25921/pnba-f878
+#
+# Science_Keywords: 
+#--------------------
+# Resource_Links
+#
+# Data_Download_Resource:  https://www.ncei.noaa.gov/pub/data/paleo/icecore/greenland/summit/ngrip/vinther2006-gicc05-holocene-ngrip-20yr-noaa.txt
+#   Data_Download_Description: NOAA Template File; 20-year Average Oxygen Isotope Data
+#
+#--------------------
+# Contribution_Date
+#   Date: 2006-07-01
+#--------------------
+# File_Last_Modified_Date
+#   Date: 2023-07-14
+#--------------------
+# Title
+#   Study_Name: North GRIP - Greenland Ice Core Chronology 2005 (GICC05) Holocene section, 20-year resolution
+#--------------------
+# Investigators
+#   Investigators: Vinther, B.M.(https://orcid.org/0000-0002-6078-771X); Clausen, H.B.; Johnsen, S.J.; Rasmussen, S.O.(https://orcid.org/0000-0002-4177-3611); Andersen, K.K.(https://orcid.org/0000-0003-4178-2195); Buchardt, S.L.; Dahl-Jensen, D.(https://orcid.org/0000-0002-1474-1948); Seierstad, I.K.(https://orcid.org/0000-0003-1294-2292); Siggaard-Andersen, M.-L.(https://orcid.org/0000-0001-8986-1920); Steffensen, J.P.(https://orcid.org/0000-0002-5516-1093); Svensson, A.M.(https://orcid.org/0000-0002-4364-6085); Olsen, J.(https://orcid.org/0000-0002-4445-5520); Heinemeier, J.
+#--------------------
+# Description_Notes_and_Keywords
+#   Description: Greenland Ice Core Chronology 2005 (GICC05) Holocene section. Please cite the relevant papers depending on the time interval used. The dating of the 0-7.9 ka b2k part is described in Vinther et al. (2006) doi: 10.1029/2005JD006921. The dating of the 7.9-14.7 ka b2k part is described in Rasmussen et al. (2006) doi: 10.1029/2005JD006079.# # Entire Holocene in 20-year resolution and d18O from NGRIP1, NGRIP2, GRIP, and DYE-3. All ages are given in years b2k (years relative to A.D. 2000). The concept of maximum counting error is introduced in Rasmussen et al. (Journ. Geophys. Res, 2006). Age and depth values refer to the bottom of each interval. Thus the NGRIP1 depth interval 14.15-20.4 m corresponds to the time interval 40 - 60 b2k, in which the NGRIP1 d18O value is -35.11 permille. # # The NGRIP1 core reaches down to a depth of 1372 m. The NGRIP2 core (drilled 20 meters away from the NGRIP1 core) reaches from surface to bedrock, but high-resolution measurements have only been carried out downwards from 1346 m. In the 26 m overlap zone, the cores are offset by 0.43 m on average, probably due to uncertainties in the logging procedure (see Schøtt Hvidberg et al., Ann. Glac. 35, 2002). Thus, the same features appear at larger depths in the NGRIP1 than in the NGRIP2 core. When combining NGRIP1 and NGRIP2 data, we recommend to switch from NGRIP1 to NGRIP2 in the year 9830b2k.# # Down to 8313 b2k, DYE-3 is dated year by year. Below 8313 b2k the GRIP-NGRIP based time scale has been transferred to DYE-3 depths using the ECM profiles. This matching introduces a few years of uncertainty which is not included in the maximum counting error (column no. 10).# # (*) Note that millennial-scale variations in the DYE-3 d18O data are significantly influenced by upstream effects. Furthermore, due to a problem with standards in the early 1980s, the DYE-3 d18O measurements are slightly off-set (maximum 0.5 permil) towards more negative values during the early Holocene.# # For more data downloads, go to www.icecores.dk# # LAST UPDATE: Time scale released March 10, 2006. This file released November 27, 2006, received by WDC Paleo 12/2006. Original file name: GICC05_Holocene_20y_27nov2006.
+#--------------------
+# Publication
+#   Authors: B.M. Vinther, H.B. Clausen, S.J. Johnsen, S.O. Rasmussen, K.K. Andersen, S.L. Buchardt, D. Dahl-Jensen, I.K. Seierstad, M.-L. Siggaard-Andersen, J.P. Steffensen, A.M. Svensson, J. Olsen, and J. Heinemeier
+#   Journal_Name: Journal of Geophysical Research: Atmospheres
+#   Published_Title: A synchronized dating of three Greenland ice cores throughout the Holocene
+#   Published_Date_or_Year: 2006
+#   Volume: 111
+#   Pages: 
+#   Issue: D13
+#   Report_Number: D13102
+#   DOI: 10.1029/2005JD006921
+#   Full_Citation:
+#   Abstract: As part of the effort to create the new Greenland Ice Core Chronology 2005 (GICC05) a synchronized stratigraphical timescale for the Holocene parts of the DYE-3, Greenland Ice Core Project (GRIP), and North Greenland Ice Core Project (NGRIP) ice cores is made by using volcanic reference horizons in electrical conductivity measurements to match the cores. The main annual layer counting is carried out on the most suited records only, exploiting that the three ice cores have been drilled at locations with different climatic conditions and differences in ice flow. However, supplemental counting on data from all cores has been performed between each set of reference horizons in order to verify the validity of the match. After the verification, the main dating is transferred to all records using the volcanic reference horizons as tie points. An assessment of the mean annual layer thickness in each core section confirms that the new synchronized dating is consistent for all three cores. The data used for the main annual layer counting of the past 7900 years are the DYE-3, GRIP, and NGRIP stable isotope records. As the high accumulation rate at the DYE-3 drill site makes the seasonal cycle in the DYE-3 stable isotopes very resistant to firn diffusion, an effort has been made to extend the DYE-3 Holocene record. The new synchronized dating relies heavily on this record of ~75,000 stable isotope samples. The dating of the early Holocene consists of an already established part of GICC05 for GRIP and NGRIP which has now been transferred to the DYE-3 core. GICC05 dates the Younger Dryas termination, as defined from deuterium excess, to 11,703 years before A. D. 2000 (b2k), 130 years earlier than the previous GRIP dating.
+#--------------------
+#   Authors: S.O. Rasmussen, K.K. Andersen, A.M. Svensson, J.P. Steffensen, B.M. Vinther, H.B. Clausen, M.-L. Siggaard-Andersen, S.J. Johnsen, L.B. Larsen, D. Dahl-Jensen, M. Bigler, R. Röthlisberger, H. Fischer, K. Goto-Azuma, M.E. Hansson, and U. Ruth
+#   Journal_Name: Journal of Geophysical Research: Atmospheres
+#   Published_Title: A new Greenland ice core chronology for the last glacial termination
+#   Published_Date_or_Year: 2006
+#   Volume: 111
+#   Pages: 
+#   Issue: D6
+#   Report_Number: D06102
+#   DOI: 10.1029/2005JD006079
+#   Full_Citation:
+#   Abstract: We present a new common stratigraphic timescale for the North Greenland Ice Core Project (NGRIP) and GRIP ice cores. The timescale covers the period 7.9–14.8 kyr before present and includes the Bølling, Allerød, Younger Dryas, and early Holocene periods. We use a combination of new and previously published data, the most prominent being new high-resolution Continuous Flow Analysis (CFA) impurity records from the NGRIP ice core. Several investigators have identified and counted annual layers using a multiparameter approach, and the maximum counting error is estimated to be up to 2% in the Holocene part and about 3% for the older parts. These counting error estimates reflect the number of annual layers that were hard to interpret, but not a possible bias in the set of rules used for annual layer identification. As the GRIP and NGRIP ice cores are not optimal for annual layer counting in the middle and late Holocene, the timescale is tied to a prominent volcanic event inside the 8.2 kyr cold event, recently dated in the DYE-3 ice core to 8236 years before A. D. 2000 (b2k) with a maximum counting error of 47 years. The new timescale dates the Younger Dryas-Preboreal transition to 11,703 b2k, which is 100–150 years older than according to the present GRIP and NGRIP timescales. The age of the transition matches the GISP2 timescale within a few years, but viewed over the entire 7.9–14.8 kyr section, there are significant differences between the new timescale and the GISP2 timescale. The transition from the glacial into the Bølling interstadial is dated to 14,692 b2k. The presented timescale is a part of a new Greenland ice core chronology common to the DYE-3, GRIP, and NGRIP ice cores, named the Greenland Ice Core Chronology 2005 (GICC05). The annual layer thicknesses are observed to be log-normally distributed with good approximation, and compared to the early Holocene, the mean accumulation rates in the Younger Dryas and Bølling periods are found to be 47 ± 2% and 88 ± 2%, respectively.
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: Carlsberg Foundation
+#   Grant:
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: Japan Ministry of Education, Culture, Sports, Science and Technology (MEXT)
+#   Grant:
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: Swiss National Science Foundation
+#   Grant:
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: French National Centre for Scientific Research (CNRS)
+#   Grant:
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: French National Institute of Universe Sciences (INSU)
+#   Grant:
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: US National Science Foundation
+#   Grant: Office of Polar Programs
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: Alfred Wegener Institute (AWI) 
+#   Grant:
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: Icelandic Centre of Research
+#   Grant:
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: Swedish Polar Research Secretariat (SPRS)
+#   Grant:
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: Fonds de la Recherche Scientifique (FNRS)
+#   Grant:
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: French Polar Institute (IPEV)
+#   Grant:
+#--------------------
+# Site_Information
+#   Site_Name: NGRIP
+#   Location: Greenland
+#   Northernmost_Latitude: 75.1
+#   Southernmost_Latitude: 75.1
+#   Easternmost_Longitude: -42.33
+#   Westernmost_Longitude: -42.33
+#   Elevation_m: 2917
+#--------------------
+# Data_Collection
+#   Collection_Name: GICC05 Holocene20yr NGRIP2006
+#   First_Year: 11650
+#   Last_Year: -30
+#   Time_Unit: cal yr BP
+#   Core_Length_m:
+#   Parameter_Keywords: Age Model
+#   Notes: Greenland Ice Core Chronology 2005 (GICC05) Holocene section. Entire Holocene in 20-year resolution and d18O from NGRIP1, NGRIP2, GRIP, and DYE-3.# All ages are given in years b2k (years relative to A.D. 2000). The concept of maximum counting error is introduced in Rasmussen et al. (Journ. Geophys. Res, 2006). Age and depth values refer to the bottom of each interval.
+#--------------------
+# Chronology_Information
+# Chronology:
+#--------------------
+# Variables
+# PaST_Thesaurus_Download_Resource: https://www.ncei.noaa.gov/access/paleo-search/skos/past-thesaurus.rdf
+#   PaST_Thesaurus_Download_Description: Paleoenvironmental Standard Terms (PaST) Thesaurus terms, definitions, and relationships in SKOS format.
+#
+# Data variables follow that are preceded by '##' in columns one and two.
+# Variables list, one per line, shortname-tab-var components: what, material, error, units, seasonality, data type, detail, method, C or N for Character or Numeric data)
+#
+## iceage_BP2k	ice age at sample start,,,calendar year before other datum,,ice cores,,,N,present is 2000 CE
+## iceage_BP1950	ice age at sample start,,,calendar year before present,,ice cores,,,N,present is 1950 CE
+## depth_ngrip1_m	depth at sample start,,,meter,,ice cores,,,N,NGRIP1 depth
+## d18O_ngrip1	delta 18O,bulk ice,,per mil VSMOW,,ice cores,resampled,,N,NGRIP1
+## depth_ngrip2_m	depth at sample start,,,meter,,ice cores,,,N,NGRIP2 depth
+## d18O_ngrip2	delta 18O,bulk ice,,per mil VSMOW,,ice cores,resampled,,N,NGRIP2
+## iceage_err	ice age,,unspecified error,year,,ice cores,,,N,maximum counting error
+#--------------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing_Values:
+iceage_BP2k	iceage_BP1950	depth_ngrip1_m	d18O_ngrip1	depth_ngrip2_m	d18O_ngrip2	iceage_err
+20	-30	7.35	-35.16	NaN	NaN	1
+40	-10	14.15	-35.82	NaN	NaN	1
+60	10	20.4	-35.11	NaN	NaN	1
+80	30	26.1	-34.65	NaN	NaN	1
+100	50	31.53	-34.53	NaN	NaN	1
+120	70	36.83	-35.29	NaN	NaN	1
+140	90	42.05	-35.02	NaN	NaN	1
+160	110	46.95	-35.02	NaN	NaN	1
+180	130	51.75	-35.78	NaN	NaN	1
+200	150	56.33	-35.16	NaN	NaN	1
+220	170	60.83	-35.61	NaN	NaN	1
+240	190	65.13	-35.12	NaN	NaN	1
+260	210	69.35	-35.79	NaN	NaN	1
+280	230	73.6	-35.82	NaN	NaN	1
+300	250	77.6	-35.36	NaN	NaN	1
+320	270	81.75	-36.05	NaN	NaN	1
+340	290	85.65	-35.39	NaN	NaN	1
+360	310	89.55	-36.14	NaN	NaN	1
+380	330	93.48	-35.33	NaN	NaN	1
+400	350	97.43	-35.35	NaN	NaN	1
+420	370	101.4	-35.72	NaN	NaN	1
+440	390	105.28	-35.03	NaN	NaN	1
+460	410	109.1	-35.61	NaN	NaN	1
+480	430	112.88	-35.82	NaN	NaN	1
+500	450	116.7	-34.93	NaN	NaN	1
+520	470	120.43	-35.07	NaN	NaN	1
+540	490	124.05	-35.87	NaN	NaN	1
+560	510	128.18	-35.13	NaN	NaN	1
+580	530	131.88	-34.98	NaN	NaN	1
+600	550	135.73	-35.05	NaN	NaN	1
+620	570	139.4	-35.53	NaN	NaN	1
+640	590	143.18	-34.86	NaN	NaN	1
+660	610	146.93	-35.25	NaN	NaN	1
+680	630	150.7	-36.43	NaN	NaN	1
+700	650	154.33	-35.07	NaN	NaN	1
+720	670	157.73	-35.2	NaN	NaN	1
+740	690	161.38	-35.49	NaN	NaN	1
+760	710	165.13	-35.67	NaN	NaN	1
+780	730	168.63	-35.4	NaN	NaN	1
+800	750	172	-35.15	NaN	NaN	1
+820	770	175.6	-35.8	NaN	NaN	1
+840	790	179.23	-35.34	NaN	NaN	1
+860	810	182.83	-35.62	NaN	NaN	1
+880	830	186.55	-35.37	NaN	NaN	1
+900	850	190.18	-35.59	NaN	NaN	1
+920	870	193.98	-35.14	NaN	NaN	1
+940	890	197.35	-35.45	NaN	NaN	1
+960	910	200.75	-35.61	NaN	NaN	1
+980	930	204.3	-35.92	NaN	NaN	1
+1000	950	207.85	-34.96	NaN	NaN	1
+1020	970	211.48	-35.24	NaN	NaN	1
+1040	990	215.08	-35.02	NaN	NaN	1
+1060	1010	218.68	-35	NaN	NaN	1
+1080	1030	222.2	-34.98	NaN	NaN	1
+1100	1050	225.8	-35.41	NaN	NaN	1
+1120	1070	229.38	-35.73	NaN	NaN	1
+1140	1090	232.98	-35.35	NaN	NaN	1
+1160	1110	236.38	-35.75	NaN	NaN	1
+1180	1130	239.98	-35.45	NaN	NaN	1
+1200	1150	243.35	-35.34	NaN	NaN	1
+1220	1170	247	-35.38	NaN	NaN	1
+1240	1190	250.6	-35.27	NaN	NaN	1
+1260	1210	254.2	-35.15	NaN	NaN	1
+1280	1230	257.73	-35.33	NaN	NaN	1
+1300	1250	261.18	-35.33	NaN	NaN	2
+1320	1270	264.53	-35.27	NaN	NaN	2
+1340	1290	268.1	-35.14	NaN	NaN	2
+1360	1310	271.55	-34.69	NaN	NaN	2
+1380	1330	274.98	-35.44	NaN	NaN	2
+1400	1350	278.7	-35.26	NaN	NaN	2
+1420	1370	282.23	-35.14	NaN	NaN	2
+1440	1390	285.55	-35.28	NaN	NaN	2
+1460	1410	289.23	-34.43	NaN	NaN	2
+1480	1430	292.7	-35.78	NaN	NaN	2
+1500	1450	296.25	-35.33	NaN	NaN	2
+1520	1470	299.7	-35.83	NaN	NaN	2
+1540	1490	303.28	-35.39	NaN	NaN	1
+1560	1510	306.7	-35.35	NaN	NaN	1
+1580	1530	310.13	-35.74	NaN	NaN	1
+1600	1550	313.55	-34.46	NaN	NaN	1
+1620	1570	316.98	-34.64	NaN	NaN	1
+1640	1590	320.4	-35.27	NaN	NaN	1
+1660	1610	323.78	-35.86	NaN	NaN	1
+1680	1630	327.23	-35.49	NaN	NaN	1
+1700	1650	330.78	-35.27	NaN	NaN	1
+1720	1670	334.05	-35.8	NaN	NaN	1
+1740	1690	337.43	-34.93	NaN	NaN	1
+1760	1710	340.7	-35.55	NaN	NaN	1
+1780	1730	344.13	-35.9	NaN	NaN	1
+1800	1750	347.68	-35.44	NaN	NaN	1
+1820	1770	351	-35.47	NaN	NaN	1
+1840	1790	354.04	-35.37	NaN	NaN	1
+1860	1810	357.49	-35.04	NaN	NaN	1
+1880	1830	360.91	-35.39	NaN	NaN	1
+1900	1850	364.34	-34.49	NaN	NaN	1
+1920	1870	367.72	-35.07	NaN	NaN	1
+1940	1890	370.57	-34.43	NaN	NaN	1
+1960	1910	373.97	-34.71	NaN	NaN	1
+1980	1930	377.78	-35.1	NaN	NaN	1
+2000	1950	381.49	-35.32	NaN	NaN	1
+2020	1970	384.6	-35.11	NaN	NaN	1
+2040	1990	388.47	-34.79	NaN	NaN	1
+2060	2010	391.47	-35.35	NaN	NaN	1
+2080	2030	395.05	-34.95	NaN	NaN	1
+2100	2050	398.38	-34.89	NaN	NaN	1
+2120	2070	401.53	-35.07	NaN	NaN	1
+2140	2090	405.18	-35.46	NaN	NaN	1
+2160	2110	408.51	-35.18	NaN	NaN	1
+2180	2130	411.73	-36.07	NaN	NaN	1
+2200	2150	414.83	-35.76	NaN	NaN	1
+2220	2170	418.06	-35.2	NaN	NaN	1
+2240	2190	421.46	-35.26	NaN	NaN	1
+2260	2210	424.47	-34.84	NaN	NaN	1
+2280	2230	427.77	-34.57	NaN	NaN	1
+2300	2250	431.03	-34.81	NaN	NaN	1
+2320	2270	434.32	-35.11	NaN	NaN	1
+2340	2290	437.76	-34.94	NaN	NaN	2
+2360	2310	440.88	-35.09	NaN	NaN	2
+2380	2330	444.21	-35.26	NaN	NaN	2
+2400	2350	447.57	-35.08	NaN	NaN	2
+2420	2370	450.97	-34.68	NaN	NaN	2
+2440	2390	454.01	-34.86	NaN	NaN	2
+2460	2410	457.23	-35.32	NaN	NaN	2
+2480	2430	460.43	-35.88	NaN	NaN	2
+2500	2450	463.51	-35.48	NaN	NaN	2
+2520	2470	466.55	-35.71	NaN	NaN	2
+2540	2490	469.85	-34.83	NaN	NaN	2
+2560	2510	472.87	-35.24	NaN	NaN	2
+2580	2530	476.1	-34.84	NaN	NaN	2
+2600	2550	479.35	-35.43	NaN	NaN	2
+2620	2570	482.6	-35.06	NaN	NaN	2
+2640	2590	485.8	-35.41	NaN	NaN	2
+2660	2610	489.17	-35.14	NaN	NaN	2
+2680	2630	492.12	-35.14	NaN	NaN	2
+2700	2650	495.41	-35.43	NaN	NaN	2
+2720	2670	498.71	-35.32	NaN	NaN	2
+2740	2690	501.78	-35.12	NaN	NaN	3
+2760	2710	505.33	-35.1	NaN	NaN	3
+2780	2730	508.48	-34.83	NaN	NaN	3
+2800	2750	511.93	-34.91	NaN	NaN	3
+2820	2770	514.9	-34.99	NaN	NaN	3
+2840	2790	517.85	-34.92	NaN	NaN	3
+2860	2810	520.77	-34.63	NaN	NaN	3
+2880	2830	524.12	-35.49	NaN	NaN	3
+2900	2850	527.42	-35.2	NaN	NaN	3
+2920	2870	530.64	-34.98	NaN	NaN	3
+2940	2890	533.83	-34.81	NaN	NaN	3
+2960	2910	537.17	-34.38	NaN	NaN	3
+2980	2930	540.47	-34.81	NaN	NaN	3
+3000	2950	543.62	-34.85	NaN	NaN	3
+3020	2970	546.74	-34.79	NaN	NaN	3
+3040	2990	549.87	-35.45	NaN	NaN	3
+3060	3010	552.82	-35.14	NaN	NaN	3
+3080	3030	555.91	-34.94	NaN	NaN	3
+3100	3050	558.87	-35.14	NaN	NaN	3
+3120	3070	562.1	-34.97	NaN	NaN	3
+3140	3090	564.9	-34.87	NaN	NaN	4
+3160	3110	567.71	-35.04	NaN	NaN	4
+3180	3130	570.64	-35.26	NaN	NaN	4
+3200	3150	573.67	-34.54	NaN	NaN	4
+3220	3170	576.95	-35.25	NaN	NaN	4
+3240	3190	579.97	-35.28	NaN	NaN	4
+3260	3210	583.19	-34.76	NaN	NaN	4
+3280	3230	586.34	-35.54	NaN	NaN	4
+3300	3250	589.48	-35.25	NaN	NaN	4
+3320	3270	592.26	-35.24	NaN	NaN	4
+3340	3290	595.5	-34.89	NaN	NaN	4
+3360	3310	598.44	-34.29	NaN	NaN	4
+3380	3330	601.36	-34.98	NaN	NaN	4
+3400	3350	604.69	-35.42	NaN	NaN	4
+3420	3370	607.89	-34.66	NaN	NaN	4
+3440	3390	610.92	-34.8	NaN	NaN	4
+3460	3410	613.93	-34.67	NaN	NaN	4
+3480	3430	616.92	-35.19	NaN	NaN	4
+3500	3450	619.98	-35.28	NaN	NaN	4
+3520	3470	622.86	-34.75	NaN	NaN	4
+3540	3490	625.87	-35.1	NaN	NaN	5
+3560	3510	628.99	-35.42	NaN	NaN	5
+3580	3530	632.01	-34.77	NaN	NaN	5
+3600	3550	634.92	-34.63	NaN	NaN	5
+3620	3570	637.89	-35.09	NaN	NaN	5
+3640	3590	640.99	-35.18	NaN	NaN	5
+3660	3610	644.05	-34.93	NaN	NaN	5
+3680	3630	647.02	-34.28	NaN	NaN	5
+3700	3650	650	-34.71	NaN	NaN	5
+3720	3670	653.05	-34.68	NaN	NaN	5
+3740	3690	656.12	-34.41	NaN	NaN	5
+3760	3710	659.08	-34.65	NaN	NaN	5
+3780	3730	662.09	-35.36	NaN	NaN	5
+3800	3750	664.95	-35.27	NaN	NaN	5
+3820	3770	667.95	-34.78	NaN	NaN	5
+3840	3790	670.98	-35.01	NaN	NaN	5
+3860	3810	674.26	-35.17	NaN	NaN	5
+3880	3830	677.07	-35.36	NaN	NaN	5
+3900	3850	680.06	-34.9	NaN	NaN	6
+3920	3870	682.84	-35.34	NaN	NaN	6
+3940	3890	685.65	-35.16	NaN	NaN	6
+3960	3910	688.47	-34.85	NaN	NaN	6
+3980	3930	691.68	-35.12	NaN	NaN	6
+4000	3950	694.49	-34.96	NaN	NaN	6
+4020	3970	697.32	-35.14	NaN	NaN	6
+4040	3990	700.63	-34.41	NaN	NaN	6
+4060	4010	704.11	-35.2	NaN	NaN	6
+4080	4030	706.92	-34.74	NaN	NaN	6
+4100	4050	710.13	-35.53	NaN	NaN	7
+4120	4070	713.11	-35.14	NaN	NaN	7
+4140	4090	715.86	-34.87	NaN	NaN	7
+4160	4110	718.63	-35.2	NaN	NaN	7
+4180	4130	721.41	-34.72	NaN	NaN	7
+4200	4150	724.12	-34.76	NaN	NaN	7
+4220	4170	726.81	-34.5	NaN	NaN	7
+4240	4190	729.63	-34.78	NaN	NaN	7
+4260	4210	732.59	-35.01	NaN	NaN	7
+4280	4230	735.13	-35.26	NaN	NaN	7
+4300	4250	738.22	-34.92	NaN	NaN	8
+4320	4270	740.98	-34.63	NaN	NaN	8
+4340	4290	744	-34.79	NaN	NaN	8
+4360	4310	746.65	-34.75	NaN	NaN	8
+4380	4330	749.44	-35	NaN	NaN	8
+4400	4350	752.45	-35.47	NaN	NaN	8
+4420	4370	755.34	-35.2	NaN	NaN	8
+4440	4390	758.01	-34.76	NaN	NaN	8
+4460	4410	760.81	-34.06	NaN	NaN	8
+4480	4430	763.36	-34.8	NaN	NaN	8
+4500	4450	765.89	-35.15	NaN	NaN	9
+4520	4470	768.33	-34.83	NaN	NaN	9
+4540	4490	770.94	-35.27	NaN	NaN	9
+4560	4510	773.61	-34.83	NaN	NaN	9
+4580	4530	776.64	-34.21	NaN	NaN	9
+4600	4550	779.48	-34.57	NaN	NaN	9
+4620	4570	782.39	-34.51	NaN	NaN	9
+4640	4590	784.91	-35.05	NaN	NaN	9
+4660	4610	787.9	-34.69	NaN	NaN	9
+4680	4630	790.63	-35.21	NaN	NaN	9
+4700	4650	793.03	-35.02	NaN	NaN	10
+4720	4670	795.69	-34.71	NaN	NaN	10
+4740	4690	798.64	-34.79	NaN	NaN	10
+4760	4710	800.95	-35.09	NaN	NaN	10
+4780	4730	804.14	-34.54	NaN	NaN	10
+4800	4750	807.06	-34.82	NaN	NaN	10
+4820	4770	809.86	-34.66	NaN	NaN	10
+4840	4790	812.37	-34.93	NaN	NaN	10
+4860	4810	814.86	-34.42	NaN	NaN	10
+4880	4830	817.78	-34.89	NaN	NaN	10
+4900	4850	820.2	-34.79	NaN	NaN	11
+4920	4870	822.79	-34.65	NaN	NaN	11
+4940	4890	825.43	-34.55	NaN	NaN	11
+4960	4910	827.85	-34.57	NaN	NaN	11
+4980	4930	830.52	-34.08	NaN	NaN	11
+5000	4950	833.42	-34.92	NaN	NaN	11
+5020	4970	835.93	-34.79	NaN	NaN	11
+5040	4990	838.83	-34.53	NaN	NaN	11
+5060	5010	841.59	-34.8	NaN	NaN	11
+5080	5030	844.2	-34.63	NaN	NaN	11
+5100	5050	846.81	-34.84	NaN	NaN	12
+5120	5070	850.05	-34.64	NaN	NaN	12
+5140	5090	852.79	-35.11	NaN	NaN	12
+5160	5110	855.68	-34.73	NaN	NaN	12
+5180	5130	858.5	-35.05	NaN	NaN	12
+5200	5150	861.14	-33.85	NaN	NaN	12
+5220	5170	863.91	-34.63	NaN	NaN	12
+5240	5190	866.83	-34.9	NaN	NaN	12
+5260	5210	869.41	-34.74	NaN	NaN	12
+5280	5230	872.14	-34.56	NaN	NaN	12
+5300	5250	874.64	-35.27	NaN	NaN	13
+5320	5270	877.24	-35.03	NaN	NaN	13
+5340	5290	879.73	-34.77	NaN	NaN	13
+5360	5310	882.13	-35.39	NaN	NaN	13
+5380	5330	885.06	-34.96	NaN	NaN	13
+5400	5350	887.67	-34.78	NaN	NaN	13
+5420	5370	890.47	-35.1	NaN	NaN	13
+5440	5390	893	-34.35	NaN	NaN	13
+5460	5410	895.73	-34.81	NaN	NaN	13
+5480	5430	898.46	-34.91	NaN	NaN	13
+5500	5450	901.2	-34.47	NaN	NaN	14
+5520	5470	903.83	-34.53	NaN	NaN	14
+5540	5490	906.5	-34.7	NaN	NaN	14
+5560	5510	909.22	-34.36	NaN	NaN	14
+5580	5530	911.77	-34.22	NaN	NaN	14
+5600	5550	914.42	-35.06	NaN	NaN	14
+5620	5570	917.03	-34.78	NaN	NaN	14
+5640	5590	919.58	-35.19	NaN	NaN	14
+5660	5610	922.16	-33.88	NaN	NaN	14
+5680	5630	924.65	-35.2	NaN	NaN	14
+5700	5650	927.19	-35.18	NaN	NaN	15
+5720	5670	929.55	-34.51	NaN	NaN	15
+5740	5690	931.99	-35.25	NaN	NaN	15
+5760	5710	934.79	-34.69	NaN	NaN	15
+5780	5730	937.22	-34.71	NaN	NaN	15
+5800	5750	939.77	-34.55	NaN	NaN	15
+5820	5770	942.18	-34.5	NaN	NaN	15
+5840	5790	944.93	-34.71	NaN	NaN	15
+5860	5810	947.43	-35.02	NaN	NaN	15
+5880	5830	950.12	-34.71	NaN	NaN	15
+5900	5850	953.03	-33.95	NaN	NaN	16
+5920	5870	955.55	-34.2	NaN	NaN	16
+5940	5890	958.09	-34.61	NaN	NaN	16
+5960	5910	960.18	-34.91	NaN	NaN	16
+5980	5930	962.78	-34.73	NaN	NaN	16
+6000	5950	965.21	-34.85	NaN	NaN	16
+6020	5970	967.97	-35.03	NaN	NaN	16
+6040	5990	970.27	-34.77	NaN	NaN	16
+6060	6010	972.71	-34.78	NaN	NaN	16
+6080	6030	975.29	-35.49	NaN	NaN	16
+6100	6050	977.83	-34.27	NaN	NaN	17
+6120	6070	980.04	-35.17	NaN	NaN	17
+6140	6090	982.61	-34.71	NaN	NaN	17
+6160	6110	985.21	-34.39	NaN	NaN	17
+6180	6130	987.78	-34.42	NaN	NaN	17
+6200	6150	989.94	-34.89	NaN	NaN	17
+6220	6170	992.39	-34.89	NaN	NaN	17
+6240	6190	994.99	-34.58	NaN	NaN	17
+6260	6210	997.45	-34.6	NaN	NaN	17
+6280	6230	1000.34	-35.13	NaN	NaN	17
+6300	6250	1002.84	-34.38	NaN	NaN	18
+6320	6270	1005.35	-35.2	NaN	NaN	18
+6340	6290	1007.78	-34.55	NaN	NaN	18
+6360	6310	1010.77	-34.6	NaN	NaN	18
+6380	6330	1013.29	-34.86	NaN	NaN	18
+6400	6350	1015.62	-34.99	NaN	NaN	18
+6420	6370	1018.21	-34.23	NaN	NaN	18
+6440	6390	1020.62	-34.62	NaN	NaN	18
+6460	6410	1022.89	-34.07	NaN	NaN	18
+6480	6430	1025.55	-34.97	NaN	NaN	18
+6500	6450	1027.6	-34.32	NaN	NaN	19
+6520	6470	1029.94	-34.5	NaN	NaN	19
+6540	6490	1032.45	-34.53	NaN	NaN	19
+6560	6510	1034.79	-35.01	NaN	NaN	19
+6580	6530	1037.43	-34.97	NaN	NaN	19
+6600	6550	1039.75	-34.98	NaN	NaN	19
+6620	6570	1042.22	-34.45	NaN	NaN	19
+6640	6590	1044.88	-34.37	NaN	NaN	19
+6660	6610	1047.34	-34.61	NaN	NaN	19
+6680	6630	1049.75	-34.57	NaN	NaN	19
+6700	6650	1052.32	-34.74	NaN	NaN	20
+6720	6670	1054.83	-34.37	NaN	NaN	20
+6740	6690	1057.53	-34.49	NaN	NaN	20
+6760	6710	1060.01	-34.52	NaN	NaN	20
+6780	6730	1062.56	-34.58	NaN	NaN	20
+6800	6750	1064.83	-35.12	NaN	NaN	20
+6820	6770	1067.2	-34.69	NaN	NaN	20
+6840	6790	1069.6	-34.32	NaN	NaN	20
+6860	6810	1072.08	-34.36	NaN	NaN	20
+6880	6830	1074.49	-34.72	NaN	NaN	20
+6900	6850	1077.09	-34.56	NaN	NaN	21
+6920	6870	1079.59	-34.97	NaN	NaN	21
+6940	6890	1082.24	-34.32	NaN	NaN	21
+6960	6910	1084.41	-34.26	NaN	NaN	22
+6980	6930	1086.53	-35.11	NaN	NaN	22
+7000	6950	1088.77	-34.73	NaN	NaN	23
+7020	6970	1091.33	-34.47	NaN	NaN	23
+7040	6990	1093.71	-34.82	NaN	NaN	23
+7060	7010	1095.88	-34.9	NaN	NaN	24
+7080	7030	1098.2	-34.77	NaN	NaN	24
+7100	7050	1100.75	-34.4	NaN	NaN	25
+7120	7070	1103.61	-34.95	NaN	NaN	25
+7140	7090	1106	-34.97	NaN	NaN	25
+7160	7110	1108.25	-34.36	NaN	NaN	26
+7180	7130	1110.46	-35.28	NaN	NaN	26
+7200	7150	1112.82	-34.74	NaN	NaN	27
+7220	7170	1115.24	-34.68	NaN	NaN	27
+7240	7190	1117.64	-34.93	NaN	NaN	27
+7260	7210	1119.92	-34.87	NaN	NaN	28
+7280	7230	1122.07	-34.12	NaN	NaN	28
+7300	7250	1124.25	-34.84	NaN	NaN	29
+7320	7270	1126.65	-34.99	NaN	NaN	29
+7340	7290	1129.13	-34.73	NaN	NaN	29
+7360	7310	1131.51	-34.64	NaN	NaN	30
+7380	7330	1134.16	-34.74	NaN	NaN	30
+7400	7350	1136.34	-34.31	NaN	NaN	31
+7420	7370	1138.52	-34.55	NaN	NaN	31
+7440	7390	1141.01	-34.62	NaN	NaN	31
+7460	7410	1143.07	-34.5	NaN	NaN	32
+7480	7430	1145.4	-34.44	NaN	NaN	32
+7500	7450	1147.83	-33.88	NaN	NaN	33
+7520	7470	1150.16	-34.77	NaN	NaN	33
+7540	7490	1152.66	-34.78	NaN	NaN	33
+7560	7510	1155.07	-35.04	NaN	NaN	34
+7580	7530	1157.29	-34.34	NaN	NaN	34
+7600	7550	1159.81	-34.52	NaN	NaN	35
+7620	7570	1162.23	-34.08	NaN	NaN	35
+7640	7590	1164.07	-34.01	NaN	NaN	35
+7660	7610	1166.38	-34.88	NaN	NaN	36
+7680	7630	1168.31	-33.9	NaN	NaN	36
+7700	7650	1170.54	-34.01	NaN	NaN	37
+7720	7670	1173.11	-34.65	NaN	NaN	37
+7740	7690	1175.36	-34.26	NaN	NaN	37
+7760	7710	1177.35	-34.09	NaN	NaN	38
+7780	7730	1179.41	-34.75	NaN	NaN	38
+7800	7750	1182.27	-34.35	NaN	NaN	39
+7820	7770	1184.71	-34.13	NaN	NaN	39
+7840	7790	1186.97	-33.76	NaN	NaN	39
+7860	7810	1189.47	-34.35	NaN	NaN	40
+7880	7830	1191.64	-34.4	NaN	NaN	40
+7900	7850	1194.1	-34.62	NaN	NaN	41
+7920	7870	1196.22	-34.98	NaN	NaN	41
+7940	7890	1198.38	-34.51	NaN	NaN	41
+7960	7910	1200.51	-34.78	NaN	NaN	42
+7980	7930	1202.58	-34.83	NaN	NaN	42
+8000	7950	1204.84	-33.6	NaN	NaN	43
+8020	7970	1207.12	-34.04	NaN	NaN	43
+8040	7990	1209.33	-34.4	NaN	NaN	43
+8060	8010	1211.48	-34.43	NaN	NaN	44
+8080	8030	1213.51	-35.05	NaN	NaN	44
+8100	8050	1215.53	-34.51	NaN	NaN	45
+8120	8070	1217.62	-34.5	NaN	NaN	45
+8140	8090	1219.47	-33.96	NaN	NaN	45
+8160	8110	1221.56	-35.44	NaN	NaN	46
+8180	8130	1223.46	-35.68	NaN	NaN	46
+8200	8150	1225.46	-35.54	NaN	NaN	47
+8220	8170	1227.26	-36.06	NaN	NaN	47
+8240	8190	1228.99	-35.88	NaN	NaN	47
+8260	8210	1230.56	-36.03	NaN	NaN	48
+8280	8230	1232.53	-35.21	NaN	NaN	48
+8300	8250	1234.78	-35.68	NaN	NaN	49
+8320	8270	1237.16	-34.5	NaN	NaN	49
+8340	8290	1239.2	-34.7	NaN	NaN	49
+8360	8310	1241.04	-34.87	NaN	NaN	50
+8380	8330	1242.94	-34.95	NaN	NaN	50
+8400	8350	1244.84	-34.41	NaN	NaN	51
+8420	8370	1246.74	-35.36	NaN	NaN	51
+8440	8390	1248.7	-34.79	NaN	NaN	51
+8460	8410	1250.75	-34.46	NaN	NaN	52
+8480	8430	1252.59	-35.07	NaN	NaN	52
+8500	8450	1254.39	-34.7	NaN	NaN	53
+8520	8470	1256.5	-34.43	NaN	NaN	53
+8540	8490	1258.4	-34.83	NaN	NaN	53
+8560	8510	1260.45	-34.99	NaN	NaN	54
+8580	8530	1262.41	-34.59	NaN	NaN	54
+8600	8550	1264.2	-34.35	NaN	NaN	55
+8620	8570	1266.07	-34.83	NaN	NaN	55
+8640	8590	1267.97	-34.18	NaN	NaN	55
+8660	8610	1269.66	-35.02	NaN	NaN	56
+8680	8630	1271.79	-35.46	NaN	NaN	56
+8700	8650	1273.68	-35.21	NaN	NaN	57
+8720	8670	1275.67	-34.01	NaN	NaN	57
+8740	8690	1277.56	-34.92	NaN	NaN	58
+8760	8710	1279.4	-34.49	NaN	NaN	58
+8780	8730	1281.18	-35.34	NaN	NaN	58
+8800	8750	1283.04	-34.22	NaN	NaN	59
+8820	8770	1285.07	-35.57	NaN	NaN	59
+8840	8790	1286.76	-35.22	NaN	NaN	60
+8860	8810	1288.68	-34.08	NaN	NaN	60
+8880	8830	1290.44	-35.15	NaN	NaN	60
+8900	8850	1292.17	-34.57	NaN	NaN	61
+8920	8870	1294.04	-34.17	NaN	NaN	61
+8940	8890	1295.85	-34.3	NaN	NaN	62
+8960	8910	1297.54	-34.71	NaN	NaN	62
+8980	8930	1299.74	-34.57	NaN	NaN	62
+9000	8950	1301.54	-34.47	NaN	NaN	63
+9020	8970	1303.4	-34.68	NaN	NaN	63
+9040	8990	1305.08	-35.57	NaN	NaN	64
+9060	9010	1306.82	-35.18	NaN	NaN	64
+9080	9030	1308.46	-34.92	NaN	NaN	64
+9100	9050	1310.23	-34.73	NaN	NaN	65
+9120	9070	1312.12	-34.61	NaN	NaN	65
+9140	9090	1313.93	-34.98	NaN	NaN	66
+9160	9110	1315.62	-34.47	NaN	NaN	66
+9180	9130	1317.55	-34.34	NaN	NaN	66
+9200	9150	1319.24	-34.7	NaN	NaN	67
+9220	9170	1321.01	-34.83	NaN	NaN	67
+9240	9190	1322.88	-34.92	NaN	NaN	68
+9260	9210	1324.4	-35.62	NaN	NaN	68
+9280	9230	1326.11	-35.66	NaN	NaN	68
+9300	9250	1327.73	-36.05	NaN	NaN	69
+9320	9270	1329.25	-35.19	NaN	NaN	69
+9340	9290	1330.87	-35.04	NaN	NaN	70
+9360	9310	1332.57	-34.91	NaN	NaN	70
+9380	9330	1334.36	-34.56	NaN	NaN	70
+9400	9350	1336.18	-34.87	NaN	NaN	71
+9420	9370	1337.81	-34.8	NaN	NaN	71
+9440	9390	1339.56	-34.83	NaN	NaN	72
+9460	9410	1341.22	-35.12	NaN	NaN	72
+9480	9430	1342.94	-35.12	NaN	NaN	72
+9500	9450	1344.72	-34.92	NaN	NaN	73
+9520	9470	1346.41	-34.66	NaN	NaN	73
+9540	9490	1347.87	-35.01	NaN	NaN	74
+9560	9510	1349.52	-34.56	1349.07	-34.24	74
+9580	9530	1351.16	-34.98	1350.71	-35.02	74
+9600	9550	1352.67	-35.13	1352.23	-35.02	75
+9620	9570	1354.48	-34.95	1354.05	-34.55	75
+9640	9590	1356.13	-34.77	1355.69	-35.08	76
+9660	9610	1357.78	-34.96	1357.32	-35.38	76
+9680	9630	1359.35	-34.85	1358.86	-34.5	77
+9700	9650	1360.87	-34.84	1360.57	-34.05	77
+9720	9670	1362.51	-34.62	1362.08	-34.62	77
+9740	9690	1364.19	-34.68	1363.71	-34.75	78
+9760	9710	1365.83	-34.87	1365.33	-34.41	78
+9780	9730	1367.39	-34.66	1367.01	-34.54	79
+9800	9750	1369.07	-34.49	1368.62	-34.44	79
+9820	9770	1370.71	-35.12	1370.27	-34.77	79
+9840	9790	NaN	NaN	1371.87	-35.37	80
+9860	9810	NaN	NaN	1373.44	-35.22	80
+9880	9830	NaN	NaN	1375.15	-34.54	81
+9900	9850	NaN	NaN	1376.7	-35.06	81
+9920	9870	NaN	NaN	1378.2	-35.26	81
+9940	9890	NaN	NaN	1379.72	-34.85	82
+9960	9910	NaN	NaN	1381.21	-35.46	82
+9980	9930	NaN	NaN	1382.79	-34.65	83
+10000	9950	NaN	NaN	1384.34	-35.1	83
+10020	9970	NaN	NaN	1385.88	-34.94	83
+10040	9990	NaN	NaN	1387.37	-35.11	84
+10060	10010	NaN	NaN	1388.82	-35.79	84
+10080	10030	NaN	NaN	1390.23	-35.21	85
+10100	10050	NaN	NaN	1391.72	-35.32	85
+10120	10070	NaN	NaN	1393.18	-35.29	85
+10140	10090	NaN	NaN	1394.61	-35.45	86
+10160	10110	NaN	NaN	1396.05	-34.99	86
+10180	10130	NaN	NaN	1397.61	-35.02	87
+10200	10150	NaN	NaN	1399.13	-34.89	87
+10220	10170	NaN	NaN	1400.55	-35.93	87
+10240	10190	NaN	NaN	1402.07	-35.54	88
+10260	10210	NaN	NaN	1403.52	-36.33	88
+10280	10230	NaN	NaN	1405.04	-36.39	89
+10300	10250	NaN	NaN	1406.44	-36.01	89
+10320	10270	NaN	NaN	1407.91	-36.01	89
+10340	10290	NaN	NaN	1409.42	-35.2	89
+10360	10310	NaN	NaN	1410.77	-36.12	89
+10380	10330	NaN	NaN	1412.14	-36.18	89
+10400	10350	NaN	NaN	1413.48	-36.36	89
+10420	10370	NaN	NaN	1414.8	-35.96	90
+10440	10390	NaN	NaN	1416.18	-36.12	90
+10460	10410	NaN	NaN	1417.5	-36.04	90
+10480	10430	NaN	NaN	1418.84	-35.53	90
+10500	10450	NaN	NaN	1420.22	-36.34	90
+10520	10470	NaN	NaN	1421.55	-35.46	90
+10540	10490	NaN	NaN	1422.87	-35.73	90
+10560	10510	NaN	NaN	1424.23	-35.86	91
+10580	10530	NaN	NaN	1425.59	-35.99	91
+10600	10550	NaN	NaN	1426.93	-35.89	91
+10620	10570	NaN	NaN	1428.22	-36.12	91
+10640	10590	NaN	NaN	1429.54	-36.13	91
+10660	10610	NaN	NaN	1430.85	-36.16	91
+10680	10630	NaN	NaN	1432.22	-35.5	91
+10700	10650	NaN	NaN	1433.5	-35.77	92
+10720	10670	NaN	NaN	1434.84	-36.05	92
+10740	10690	NaN	NaN	1436.11	-36.45	92
+10760	10710	NaN	NaN	1437.43	-35.88	92
+10780	10730	NaN	NaN	1438.71	-36.22	92
+10800	10750	NaN	NaN	1439.92	-36.83	92
+10820	10770	NaN	NaN	1441.16	-35.84	92
+10840	10790	NaN	NaN	1442.44	-36.59	93
+10860	10810	NaN	NaN	1443.8	-36.09	93
+10880	10830	NaN	NaN	1445.12	-37.23	93
+10900	10850	NaN	NaN	1446.33	-37.6	93
+10920	10870	NaN	NaN	1447.53	-37.25	93
+10940	10890	NaN	NaN	1448.64	-37.15	93
+10960	10910	NaN	NaN	1449.92	-37	93
+10980	10930	NaN	NaN	1451.03	-38.01	94
+11000	10950	NaN	NaN	1452.29	-36.53	94
+11020	10970	NaN	NaN	1453.54	-37.05	94
+11040	10990	NaN	NaN	1454.75	-36.44	94
+11060	11010	NaN	NaN	1455.98	-36.64	94
+11080	11030	NaN	NaN	1457.18	-36.89	94
+11100	11050	NaN	NaN	1458.38	-37.11	94
+11120	11070	NaN	NaN	1459.59	-36.71	95
+11140	11090	NaN	NaN	1460.85	-36.43	95
+11160	11110	NaN	NaN	1461.97	-37.13	95
+11180	11130	NaN	NaN	1463.16	-36.62	95
+11200	11150	NaN	NaN	1464.37	-37.25	95
+11220	11170	NaN	NaN	1465.52	-37.39	95
+11240	11190	NaN	NaN	1466.67	-37.6	95
+11260	11210	NaN	NaN	1467.9	-36.57	95
+11280	11230	NaN	NaN	1469.13	-36.16	96
+11300	11250	NaN	NaN	1470.36	-36.58	96
+11320	11270	NaN	NaN	1471.51	-37.54	96
+11340	11290	NaN	NaN	1472.66	-36.67	96
+11360	11310	NaN	NaN	1473.88	-36.91	96
+11380	11330	NaN	NaN	1475.02	-37.45	96
+11400	11350	NaN	NaN	1476.16	-37.63	96
+11420	11370	NaN	NaN	1477.23	-37.11	97
+11440	11390	NaN	NaN	1478.16	-38.46	97
+11460	11410	NaN	NaN	1479.15	-38.26	97
+11480	11430	NaN	NaN	1480.13	-38.72	97
+11500	11450	NaN	NaN	1481.24	-37.41	97
+11520	11470	NaN	NaN	1482.32	-37.84	97
+11540	11490	NaN	NaN	1483.41	-36.9	97
+11560	11510	NaN	NaN	1484.59	-36.6	98
+11580	11530	NaN	NaN	1485.69	-36.87	98
+11600	11550	NaN	NaN	1486.95	-36.78	98
+11620	11570	NaN	NaN	1488.1	-36.41	98
+11640	11590	NaN	NaN	1489.26	-36.57	98
+11660	11610	NaN	NaN	1490.44	-36.68	98
+11680	11630	NaN	NaN	1491.45	-38.49	98
+11700	11650	NaN	NaN	1492.33	-39.04	99

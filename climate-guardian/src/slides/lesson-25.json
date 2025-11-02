@@ -1,0 +1,66 @@
+{
+  "title": "北极熊的生存危机",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "北极熊的生存危机",
+      "subtitle": "探索海冰减少对北极熊的影响",
+      "duration": 3
+    },
+    {
+      "type": "objective",
+      "title": "学习目标",
+      "objectives": [
+        "认识北极熊的生态特征与栖息地需求",
+        "理解海冰减少对北极熊觅食、繁殖与迁移的影响机制",
+        "学会用海冰与物种数据进行交互分析并提出保护建议"
+      ],
+      "duration": 2
+    },
+    {
+      "type": "video",
+      "title": "北极熊在碎裂海冰上觅食与长距离游泳",
+      "videoSrc": "https://example.com/videos/polar-bear-sea-ice.mp4",
+      "duration": 5
+    },
+    {
+      "type": "concept",
+      "title": "北极熊与海冰的关系",
+      "content": "海冰是北极熊的捕猎平台，海冰期缩短导致捕猎时间减少，能量摄入不足",
+      "duration": 8
+    },
+    {
+      "type": "chart",
+      "title": "北极海冰与北极熊分布",
+      "chartType": "scatter",
+      "dataSrc": "data/polar-bear-sea-ice-correlation.csv",
+      "duration": 10
+    },
+    {
+      "type": "interaction",
+      "title": "北极熊危机交互分析",
+      "content": "拖动时间轴观察北极海冰最小范围多年趋势，点击地图查看不同区域海冰指标与北极熊分布",
+      "duration": 12
+    },
+    {
+      "type": "discussion",
+      "title": "讨论与思考",
+      "questions": [
+        "生态—社会影响的平衡与挑战是什么？",
+        "保护策略的优先级如何排序？"
+      ],
+      "duration": 5
+    },
+    {
+      "type": "summary",
+      "title": "课程总结",
+      "keyPoints": [
+        "海冰减少影响北极熊的觅食和繁殖",
+        "气候变化对极地生态系统造成威胁",
+        "需要综合保护措施应对危机"
+      ],
+      "duration": 3
+    }
+  ]
+}

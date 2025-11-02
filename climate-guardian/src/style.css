@@ -1,0 +1,38 @@
+/** Tailwind base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** 课件指南：16:9 大屏，字号 24+，行高 1.4 */
+.reveal .slides section {
+  font-family: 'Heiti TC', 'PingFang TC', 'Microsoft YaHei', sans-serif;
+  line-height: 1.4;
+  color: #222;
+}
+.reveal h1,
+.reveal h2 {
+  @apply font-bold;
+}
+.reveal h1 { font-size: 2.5rem; }
+.reveal h2 { font-size: 2rem; }
+.reveal p,
+.reveal li {
+  font-size: 1.5rem; /* 24px */
+}
+
+/** 图表容器默认高度 */
+.reveal .chart div[id^='chart'] {
+  height: 420px;
+}
+
+/** 视频自适应 */
+.reveal video {
+  max-height: 60vh;
+}
+
+/** 互动区占位 */
+.reveal #interaction-area {
+  min-height: 200px;
+  border: 2px dashed #ccc;
+  @apply rounded-lg;
+}

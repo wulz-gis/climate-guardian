@@ -1,0 +1,11 @@
+{
+  "dataset_short_name": "LakeWalker_D50",
+  "type": "Grain Size D50 (µm)",
+  "local_path": "/Users/wulizong/GreenAI/GreenAI特色课程/a-气候小卫士/data/data/walker2021gs.txt",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/paleolimnology/northamerica/canada/pq/walker2021gs.txt",
+  "dataset_doi": "10.25921/9y0x-m754",
+  "sha256": "8b46f5c3feb4c4d0cae10e165adeb53d853d4964a6c9f6ce21d73f1689649787",
+  "citation": "NOAA NCEI WDS Paleoclimatology: Lake Walker grain size D50. DOI 10.25921/9y0x-m754. Accessed 2025-11-01.",
+  "created_at": "2025-11-01T23:06:44.212035+00:00",
+  "citation_guidelines_url": "https://www.ncei.noaa.gov/access/paleo-search/citation"
+}

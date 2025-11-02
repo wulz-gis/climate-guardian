@@ -1,0 +1,81 @@
+{
+  "lesson": 6,
+  "title": "雨水的秘密",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "雨水的秘密",
+      "subtitle": "气候小卫士 | 第6课",
+      "duration": 40
+    },
+    {
+      "type": "objective",
+      "title": "本课目标",
+      "bullets": [
+        "认识降水的不同形式（雨、雪、冰雹）",
+        "学会制作简易雨量器",
+        "了解降水量对植物生长的影响"
+      ],
+      "duration": 90
+    },
+    {
+      "type": "video",
+      "title": "情景导入",
+      "video": "/assets/videos/lesson-06-intro.mp4",
+      "placeholder": "/assets/images/lesson-06-intro.jpg",
+      "questions": ["视频里哪种降水最剧烈？为什么？"],
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "降水形式",
+      "content": "雨、雪、冰雹及其特征，形成条件不同",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "降水量概念",
+      "content": "降水的多少和单位（毫米），对植物生长很重要",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "形成条件",
+      "content": "水汽、凝结核、温度变化是降水形成的关键",
+      "duration": 120
+    },
+    {
+      "type": "chart",
+      "title": "降雨强度分析",
+      "chartType": "bar",
+      "dataSrc": "/assets/data/lesson-06-rainfall.csv",
+      "duration": 180
+    },
+    {
+      "type": "interaction",
+      "title": "互动分析",
+      "task": "查看降雨数据与雷达图，比较降雨强度变化",
+      "duration": 180
+    },
+    {
+      "type": "discussion",
+      "title": "讨论思考",
+      "questions": [
+        "降水过多或过少会带来什么问题？",
+        "如何节约用水，保护水资源？"
+      ],
+      "duration": 180
+    },
+    {
+      "type": "summary",
+      "title": "要点回顾",
+      "bullets": [
+        "降水有雨、雪、冰雹等形式",
+        "降水量用毫米表示",
+        "适量降水对生态环境很重要"
+      ],
+      "duration": 90
+    }
+  ]
+}

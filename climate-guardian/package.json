@@ -1,0 +1,22 @@
+{
+  "name": "climate-guardian",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --host"
+  },
+  "devDependencies": {
+    "@types/reveal.js": "^5.2.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "@types/reveal": "^4.2.0",
+    "echarts": "^6.0.0",
+    "reveal.js": "^5.2.1"
+  }
+}

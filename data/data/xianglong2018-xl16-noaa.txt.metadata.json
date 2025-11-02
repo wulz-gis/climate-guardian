@@ -1,0 +1,11 @@
+{
+  "dataset_short_name": "Xianglong_XL16",
+  "type": "Speleothem Growth Rate (mm/yr)",
+  "local_path": "data/data/xianglong2018-xl16-noaa.txt",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/speleothem/asia/china/xianglong2018-xl16-noaa.txt",
+  "dataset_doi": "10.25921/8d0j-jt40",
+  "sha256": "65e1feba097bfdbe9f208e66c825e152db984da60f29ec01e3c59b241ba8862d",
+  "citation": "NOAA NCEI WDS Paleoclimatology: Xianglong Cave XL-16 growth rate. DOI 10.25921/8d0j-jt40. Accessed 2025-11-02.",
+  "created_at": "2025-11-02T00:10:18.141329+00:00",
+  "citation_guidelines_url": "https://www.ncei.noaa.gov/access/paleo-search/citation"
+}

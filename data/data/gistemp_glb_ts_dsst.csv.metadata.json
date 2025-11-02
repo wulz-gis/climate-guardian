@@ -1,0 +1,11 @@
+{
+  "dataset_short_name": "GISTEMP_v4",
+  "type": "Temperature (Anomaly)",
+  "local_path": "data/data/gistemp_glb_ts_dsst.csv",
+  "source_url": "https://data.giss.nasa.gov/gistemp/",
+  "dataset_doi": null,
+  "sha256": "12844ebf9af5ff40ed0c75fb57ac69545b4a60888aab91d7a838427dbfc9f748",
+  "citation": "GISTEMP Team: GISS Surface Temperature Analysis (GISTEMP v4), NASA GISS. Accessed 2025-11-02.",
+  "created_at": "2025-11-02T00:10:18.139665+00:00",
+  "citation_guidelines_url": "https://data.giss.nasa.gov/gistemp/faq/"
+}

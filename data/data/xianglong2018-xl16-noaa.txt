@@ -1,0 +1,547 @@
+# Xianglong Cave, China 6,650 year Speleothem Stable Isotope Data
+#----------------------------------------------------
+#                World Data Service for Paleoclimatology, Boulder
+#                                  and
+#                     NOAA Paleoclimatology Program
+#             National Centers for Environmental Information (NCEI)
+#----------------------------------------------------
+# Template Version 4.0
+# Encoding: UTF-8
+# NOTE: Please cite original publication, NOAA Landing Page URL, dataset and publication DOIs (where available), and date accessed when using downloaded data. If there is no publication information, please cite investigator, study title, NOAA Landing Page URL, and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# NOAA_Landing_Page: https://www.ncei.noaa.gov/access/paleo-search/study/23870
+#   Landing_Page_Description: NOAA Landing Page of this file's parent study, which includes all study metadata.
+#
+# Study_Level_JSON_Metadata: https://www.ncei.noaa.gov/pub/data/metadata/published/paleo/json/noaa-cave-23870.json
+#   Study_Level_JSON_Description: JSON metadata of this data file's parent study, which includes all study metadata.
+#
+# Data_Type: Speleothems
+#
+# Dataset_DOI: 10.25921/8d0j-jt40
+#
+# Science_Keywords: 
+#--------------------
+# Resource_Links
+#
+# Data_Download_Resource:  https://www.ncei.noaa.gov/pub/data/paleo/speleothem/asia/china/xianglong2018-xl16-noaa.txt
+#   Data_Download_Description: NOAA Template File; Stalagmite XL-16 Stable Isotope Data
+#
+#--------------------
+# Contribution_Date
+#   Date: 2018-04-12
+#--------------------
+# File_Last_Modified_Date
+#   Date: 2025-03-31
+#--------------------
+# Title
+#   Study_Name: Xianglong Cave, China 6,650 year Speleothem Stable Isotope Data
+#--------------------
+# Investigators
+#   Investigators: Tan, L.(https://orcid.org/0000-0003-1932-7102); Cai, Y.(https://orcid.org/0000-0001-7063-5050); Cheng, H.(https://orcid.org/0000-0002-5305-9458); Edwards, R.L.(https://orcid.org/0000-0002-7027-5881); Gao, Y.; Xu, H.(https://orcid.org/0000-0002-5356-8156); Zhang, H.(https://orcid.org/0000-0002-0855-1283); An, Z.(https://orcid.org/0000-0002-9538-9826)
+#--------------------
+# Description_Notes_and_Keywords
+#   Description: Speleothem oxygen and carbon isotope records from Xianglong Cave, upper Hanjiang River region over the last 6650 years. Provided Keywords: Speleothem, oxygen and carbon isotope, Xianglonglong cave, paleoclimate
+#--------------------
+# Publication
+#   Authors: Liangcheng Tan, Yanjun Cai, Hai Cheng, R. Lawrence Edwards, Yongli Gao, Hai Xu, Haiwei Zhang, Zhisheng An
+#   Journal_Name: Earth and Planetary Science Letters
+#   Published_Title: Centennial- to decadal-scale monsoon precipitation variations in the upper Hanjiang River region, China over the past 6650 years
+#   Published_Date_or_Year: 2018
+#   Volume: 482
+#   Pages: 580-590
+#   Issue: 
+#   Report_Number: 
+#   DOI: 10.1016/j.epsl.2017.11.044
+#   Full_Citation:
+#   Abstract: The upper Hanjiang River region is the recharge area of the middle route of South-to-North Water Transfer Project. The region is under construction of the Hanjiang-Weihe River Water Transfer Project in China. Monsoon precipitation variations in this region are critical to water resource and security of China. In this study, high-resolution monsoon precipitation variations were reconstructed in the upper Hanjiang River region over the past 6650 years from d18O and d13C records of four stalagmites in Xianglong cave. The long term increasing trend of stalagmite d18O record since the middle Holocene is consistent with other speleothem records from monsoonal China. This trend follows the gradually decreasing Northern Hemisphere summer insolation, which indicates that solar insolation may control the orbital-scale East Asian summer monsoon (EASM) variations. Despite the declined EASM intensity since the middle Holocene, local precipitation may not have decreased remarkably, as revealed by the d13C records. A series of centennial- to decadal-scale cyclicity was observed, with quasi-millennium-, quasi-century-, 57-, 36- and 22-year cycles by removing the long-term trend of stalagmite d18O record. Increased monsoon precipitation during periods of 4390-3800 a BP, 3590-2960 a BP, 2050-1670 a BP and 1110–790 a BP had caused four super-floods in the upper reach of Hanjiang River. Dramatically dry climate existed in this region during the 5.0 ka and 2.8 ka events, coinciding with notable droughts in other regions of monsoonal China. Remarkably intensified and southward Westerly jet, together with weakened summer monsoon, may delay the onset of rainy seasons, resulting in synchronous decreasing of monsoon precipitation in China during the two events. During the 4.2 ka event and the Little Ice Age, the upper Hanjiang River region was wet, which was similar to the climate conditions in central and southern China, but was the opposite of drought observed in northern China. We propose that weakened summer monsoon and less strengthened or normal Westerly jet may cause rain belt stay longer in the southward region, which reduced rainfall in northern China but enhanced it in central and southern China.
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: Chinese Academy of Sciences West Light Foundation
+#   Grant:
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: National Natural Science Foundation China
+#   Grant: 41372192, 41001061
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: State Key Laboratory of Loess and Quaternary Geology of China
+#   Grant:
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: National Key Research and Development Program of China
+#   Grant: 2017YFA0603401
+#--------------------
+# Funding_Agency
+#   Funding_Agency_Name: Young Scientist Program of Shaanxi, China
+#   Grant: 2015KJXX-57
+#--------------------
+# Site_Information
+#   Site_Name: Xianglong Cave
+#   Location: China
+#   Northernmost_Latitude: 32.9975
+#   Southernmost_Latitude: 32.9975
+#   Easternmost_Longitude: 106.3281
+#   Westernmost_Longitude: 106.3281
+#   Elevation_m: 940
+#--------------------
+# Data_Collection
+#   Collection_Name: Xianglong2018iso XL-16
+#   First_Year: 4912
+#   Last_Year: 653
+#   Time_Unit: cal yr BP
+#   Core_Length_m:
+#   Parameter_Keywords: carbon isotopes, oxygen isotopes
+#   Notes: 
+#--------------------
+# Chronology_Information
+#   Chronology: Uranium-Thorium
+#   Chronology_Download_Resource: https://www.ncei.noaa.gov/pub/data/paleo/templates/noaa-wds-paleo-uth-terms.csv
+#     Chronology_Download_Description: Uranium-Thorium terms and definitions.
+#   Chronology_Notes: 230Th dating results of XL16 from Xianglong cave. XRD analyses results suggest XL16 is composed of pure aragonite.
+#   Rejection_Rationale:
+#   238U_Decay_Constant:
+#   234U_Decay_Constant:
+#   230Th_Decay_Constant:
+#   Initial_230Th/232Th: 4.4 +/- 2.2 x 10-6
+#   Initial_230Th/232Th_Method: Values for a material at secular equilibrium, with the bulk earth 232Th/238U value of 3.8.  The errors are arbitrarily assumed to be 50%.
+#   Age_Model_Method: linear interpolation
+#   Missing_Values: na
+#   Chronology_Table:
+# samp_id	depth_top_mm	238U_ppb	238U_2s_ppb	232Th_ppt	232Th_2s_ppt	230Th_232Th_atom_ppm	230Th_232Th_atom_2s_ppm	d234U_meas_permil	d234U_meas_2s_permil	230Th_238U_act	230Th_238U_act_2s	age_uncorr_BM	age_uncorr_2s_yr	age_corr_BP1950	age_corr_2s_yr	d234U_init_permil	d234U_init_2s_permil
+# XL16-1	4	1671.6	3.8	2493.0	50.2	123.6	2.5	302.5	2.3	0.01118	0.00005	940	5	847	24	303.3	2.4
+# XL16-1a	7.5	3528.6	8.6	952.1	19.3	806.0	16.5	305.4	2.1	0.01319	0.00005	1107	5	1041	6	306.4	2.1
+# XL16-2a	15.5	3581.9	8.8	192.6	4.0	4180.8	87.5	306.7	2.2	0.01364	0.00005	1143	5	1082	5	307.7	2.3
+# XL16-2	23	1941.9	4.6	293.9	6.0	1615.3	33.3	305.9	2.6	0.01482	0.00006	1244	5	1181	6	307.0	2.6
+# XL16-3	28	368.5	2.5	173.2	3.6	599.6	13.6	305.5	14.9	0.01709	0.00020	1436	24	1365	25	306.7	15.0
+# XL16-3a	48	2088.2	4.6	32.9	1.6	21327.8	1066.0	302.9	2.2	0.02038	0.00008	1718	8	1658	8	304.4	2.2
+# XL16-4	66.5	557.5	0.6	141.7	3.0	1382.7	30.0	304.1	1.9	0.02132	0.00012	1797	11	1731	11	305.6	1.9
+# XL16-4a	80.5	2467.2	6.5	132.5	2.9	6920.3	152.0	302.0	2.7	0.02255	0.00009	1904	9	1842	9	303.6	2.7
+# XL16-5	106.5	1386.6	2.3	287.1	5.9	1946.4	40.7	304.2	2.4	0.02444	0.00010	2062	9	1997	10	305.9	2.4
+# XL16-5a	124	1400.8	2.5	97.6	2.2	5974.1	137.6	303.6	2.4	0.02524	0.00010	2130	9	2069	9	305.4	2.4
+# XL16-6	144	1667.0	3.0	101.7	2.4	7267.4	169.7	299.6	2.3	0.02689	0.00009	2278	9	2217	9	301.5	2.4
+# XL16-6a	160.5	1072.2	2.1	186.0	4.1	2667.4	60.3	297.9	2.6	0.02807	0.00015	2382	13	2318	14	299.9	2.6
+# XL16-7	186.5	2502.3	5.8	71.7	1.6	17447.1	400.8	302.9	2.3	0.03032	0.00010	2566	10	2505	10	305.1	2.3
+# XL16-2T	208.5	1091.9	1.4	68.6	16.0	8302.7	1942.7	306.6	2.4	0.03159	0.00025	2670	22	2609	22	308.9	2.4
+# XL16-8	236.5	1422.6	2.6	64.3	1.6	12186.7	313.2	300.4	2.3	0.03342	0.00011	2836	10	2775	11	302.8	2.3
+# XL16-8a	246	1670.4	3.4	501.1	10.2	1917.8	39.3	302.0	2.3	0.03490	0.00012	2960	12	2893	13	304.5	2.4
+# XL16-9	265	1280.7	2.5	176.6	3.9	4461.3	99.7	307.3	2.5	0.03732	0.00014	3155	13	3092	13	310.0	2.6
+# XL16-9a	272	1671.0	3.6	128.0	3.0	8301.5	198.8	308.6	2.4	0.03857	0.00014	3259	14	3197	14	311.5	2.4
+# XL16-10	292	1013.8	1.7	127.3	2.7	5348.5	115.5	310.5	2.0	0.04073	0.00012	3439	12	3376	12	313.5	2.0
+# XL16-10a	301.5	672.8	1.1	1031.1	20.8	510.1	10.6	306.8	2.4	0.04741	0.00026	4024	23	3930	34	310.3	2.5
+# XL16-11a	307	756.0	1.2	470.1	9.5	1296.3	26.7	311.6	2.4	0.04889	0.00018	4136	17	4063	20	315.2	2.4
+# XL16-11	311.5	1079.2	1.7	392.4	7.9	2261.0	46.0	308.4	2.2	0.04987	0.00014	4231	14	4163	15	312.1	2.2
+# XL16-1T	317.5	490.1	1.5	1461.3	21.9	313.5	5.8	311.0	5.0	0.05661	0.00062	4812	57	4692	65	315.2	5.1
+#--------------------
+# Variables
+# PaST_Thesaurus_Download_Resource: https://www.ncei.noaa.gov/access/paleo-search/skos/past-thesaurus.rdf
+#   PaST_Thesaurus_Download_Description: Paleoenvironmental Standard Terms (PaST) Thesaurus terms, definitions, and relationships in SKOS format.
+#
+# Data variables follow that are preceded by '##' in columns one and two.
+# Variables list, one per line, shortname-tab-var components: what, material, error, units, seasonality, data type, detail, method, C or N for Character or Numeric data)
+#
+## depth_mm	depth,,,millimeter,,speleothems,,,N,from SISAL v2 database
+## age	age,,,calendar year before present,,speleothems,,,N,
+## GR	growth rate,calcium carbonate,,millimeter per year,,speleothems,,,N,
+## d18O	delta 18O,calcium carbonate,,per mil VPDB,,speleothems,,,N,
+## d13C	delta 13C,calcium carbonate,,per mil VPDB,,speleothems,,,N,
+#--------------------
+# Data:
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing_Values:
+depth_mm	age	GR	d18O	d13C
+0.5	653	0.01804	-5.57	-0.24
+1	681	0.01804	-5.71	-0.63
+1.5	708	0.01804	-5.84	-0.24
+2	736	0.01804	-6.03	-0.95
+2.6	769	0.01804	-6.33	0.02
+3.2	803	0.01804	-6.39	0.2
+3.5	819	0.01804	-7.18	-1.79
+4	847	0.01804	-7.12	-1.77
+4.6	880	0.01804	-7.32	-1.89
+5.1	908	0.01804	-6.62	-2.08
+5.5	930	0.01804	-6.68	-2.16
+6	958	0.01804	-6.12	-0.35
+6.6	991	0.01804	-6.22	-0.34
+7	1013	0.01804	-6.75	-2.11
+7.5	1041	0.19512	-6.66	-2.05
+8	1044	0.19512	-6.59	-2.61
+8.5	1046	0.19512	-6.72	-2.42
+9.1	1049	0.19512	-6.61	-3.27
+9.5	1051	0.19512	-6.62	-4.14
+10	1054	0.19512	-6.72	-4.12
+10.5	1056	0.19512	-6.54	-4.13
+11	1059	0.19512	-6.75	-4.35
+11.5	1062	0.19512	-6.66	-4.81
+12	1064	0.19512	-6.67	-4.34
+12.5	1067	0.19512	-6.29	-4.84
+13	1069	0.19512	-5.92	-4.41
+13.5	1072	0.19512	-6.09	-4.41
+14	1074	0.19512	-6.51	-5.09
+14.5	1077	0.19512	-6.48	-5.37
+15	1079	0.19512	-6.72	-5.55
+15.5	1082	0.07576	-6.6	-4.76
+16	1089	0.07576	-6.48	-4.83
+16.5	1095	0.07576	-6.72	-4.87
+17	1102	0.07576	-6.73	-5.54
+17.5	1108	0.07576	-6.83	-5.16
+18	1115	0.07576	-6.89	-5.76
+18.5	1122	0.07576	-6.34	-5.91
+19	1128	0.07576	-6.13	-5.67
+19.5	1135	0.07576	-6.22	-5.21
+20	1141	0.07576	-6.3	-6.36
+20.5	1148	0.07576	-6.14	-5.73
+21	1155	0.07576	-6.46	-5.1
+21.5	1161	0.07576	-6.12	-3.75
+22	1168	0.07576	-6.64	-4.35
+22.5	1174	0.07576	-6.27	-3.81
+23	1181	0.02717	-6.35	-3.63
+23.5	1199	0.02717	-5.98	-3.17
+24	1218	0.02717	-6.14	-2.98
+24.5	1236	0.02717	-6.4	-2.14
+25	1255	0.02717	-6.55	-2.11
+25.5	1273	0.02717	-5.99	-0.67
+26	1291	0.02717	-6.34	-2.71
+26.5	1310	0.02717	-6.08	-2.25
+27	1328	0.02717	-6.01	-3.4
+27.5	1347	0.02717	-6.03	-2.94
+28	1365	0.06826	-5.87	-1.08
+28.5	1372	0.06826	-5.78	-1.9
+29	1380	0.06826	-6.32	-2.61
+29.5	1387	0.06826	-6.26	-2.76
+30	1394	0.06826	-6.44	-3.32
+30.5	1402	0.06826	-6.28	-2.62
+31	1409	0.06826	-5.77	-1.37
+31.5	1416	0.06826	-6.04	-2.63
+32	1424	0.06826	-5.96	-2.46
+32.5	1431	0.06826	-6.32	-2.9
+33	1438	0.06826	-6.07	-2.88
+33.5	1446	0.06826	-6.53	-3.66
+34	1453	0.06826	-6.45	-3.3
+34.5	1460	0.06826	-6.63	-3.68
+35	1468	0.06826	-6.43	-4.05
+35.5	1475	0.06826	-6.01	-2.97
+36	1482	0.06826	-6.16	-4.41
+36.5	1490	0.06826	-6.06	-4.2
+37	1497	0.06826	-6.45	-4.01
+37.5	1504	0.06826	-6.56	-4.06
+38	1512	0.06826	-6.96	-4.52
+38.5	1519	0.06826	-6.9	-5.02
+39	1526	0.06826	-7.11	-4.89
+39.5	1533	0.06826	-6.63	-4.58
+40	1541	0.06826	-7.12	-5.4
+40.5	1548	0.06826	-5.92	-4.2
+41	1555	0.06826	-5.74	-4.68
+41.5	1563	0.06826	-5.51	-3.79
+42	1570	0.06826	-5.61	-4.38
+42.5	1577	0.06826	-6.03	-3.39
+43	1585	0.06826	-6.19	-3.52
+43.5	1592	0.06826	-6.19	-3.39
+44	1599	0.06826	-5.99	-3.49
+44.5	1607	0.06826	-6.22	-4.53
+45	1614	0.06826	-6.44	-5.08
+45.5	1621	0.06826	-6.52	-4.77
+46	1629	0.06826	-6.76	-4.82
+47	1643	0.06826	-5.36	-7.28
+48	1658	0.25342	-6.99	-4.56
+49	1662	0.25343	-6.57	-4.28
+50	1666	0.25342	-6.19	-4.35
+51	1670	0.25343	-6.03	-3.6
+52	1674	0.25342	-6.03	-4.19
+53	1678	0.25342	-7.09	-3.02
+54	1682	0.25343	-7.08	-4.29
+55	1686	0.25342	-7.32	-3.61
+56	1690	0.25343	-6.9	-5.1
+57	1694	0.25342	-7.38	-3.55
+58	1697	0.25342	-6.67	-5.67
+59	1701	0.25343	-7.08	-3.55
+60	1705	0.25342	-6.45	-5.59
+61	1709	0.25343	-7.03	-4.08
+62	1713	0.25342	-6.44	-4.88
+63	1717	0.25342	-7.35	-2.97
+64	1721	0.25343	-7.25	-5.01
+65	1725	0.25342	-7.42	-3.26
+66	1729	0.16843	-6.57	-3.58
+67	1735	0.12613	-7.03	-4.34
+68	1743	0.12613	-7.16	-4.65
+69	1751	0.12613	-6.69	-4.93
+70	1759	0.12613	-6.33	-3.98
+71	1767	0.12613	-7.16	-4.7
+72	1775	0.12613	-6.53	-4.47
+73	1783	0.12613	-6.68	-4.82
+74	1790	0.12613	-6.37	-5.56
+75	1798	0.12613	-6.69	-5.12
+76	1806	0.12613	-7.03	-4.43
+77	1814	0.12613	-6.73	-4.91
+78	1822	0.12613	-6.13	-4.07
+79	1830	0.12613	-6.66	-4.42
+80	1838	0.14399	-7.3	-5.23
+81	1845	0.16774	-6.52	-5.26
+82	1851	0.16774	-7.18	-5.31
+83	1857	0.16774	-6.94	-5.52
+84	1863	0.16774	-6.53	-4.75
+85	1869	0.16774	-6.66	-5.09
+86	1875	0.16774	-6.67	-5.29
+87	1881	0.16774	-6.63	-3.97
+88	1887	0.16774	-6.81	-5.01
+89	1893	0.16774	-6.03	-4.71
+90	1899	0.16774	-7.11	-5.98
+91	1905	0.16774	-6.2	-4.63
+92	1911	0.16774	-6.63	-5.35
+93	1917	0.16774	-6.74	-4.12
+94	1922	0.16774	-7.07	-5.97
+95	1928	0.16774	-6.63	-4.93
+96	1934	0.16774	-6.22	-4.12
+97	1940	0.16774	-6.72	-4.92
+98	1946	0.16774	-6.79	-4.4
+99	1952	0.16774	-6.99	-3.89
+100	1958	0.16774	-6.29	-4.69
+101	1964	0.16774	-7.17	-4.64
+102	1970	0.16774	-6.51	-3.94
+103	1976	0.16774	-7.16	-5.17
+104	1982	0.16774	-6.45	-5.28
+105	1988	0.16774	-6.67	-6.05
+106	1994	0.1985	-6.74	-5.56
+107	1999	0.24306	-6.22	-4.47
+108	2003	0.24306	-6.58	-4.91
+109	2007	0.24306	-6.89	-4.6
+110	2011	0.24306	-6.25	-4.66
+111	2016	0.24306	-6.63	-4.76
+112	2020	0.24306	-6.1	-4.07
+113	2024	0.24306	-7.04	-4.32
+114	2028	0.24306	-6.8	-4.52
+115	2032	0.24306	-7.04	-4.69
+116	2036	0.24306	-6.72	-4.53
+117	2040	0.24306	-6.67	-4.52
+118	2044	0.24306	-6.22	-4.64
+119	2048	0.24306	-6.3	-4.17
+120	2053	0.24306	-6.7	-4.48
+121	2057	0.24306	-6.84	-4.49
+122	2061	0.24306	-6.62	-5.2
+123	2065	0.24306	-6.55	-5.71
+124	2069	0.13514	-6.26	-4.7
+125	2076	0.13514	-6.69	-4.28
+126	2084	0.13514	-6.91	-4.94
+127	2091	0.13514	-6.5	-5.34
+128	2099	0.13514	-6.27	-4.9
+129	2106	0.13514	-6.47	-5.23
+130	2113	0.13514	-6.39	-4.86
+131	2121	0.13514	-6.92	-5.37
+132	2128	0.13514	-6.69	-5.03
+133	2136	0.13514	-6.31	-4.01
+134	2143	0.13514	-6.36	-4.35
+135	2150	0.13514	-6.4	-3.84
+136	2158	0.13514	-6.47	-4.75
+137	2165	0.13514	-6.84	-4.41
+138	2173	0.13514	-6.01	-3.82
+139	2180	0.13514	-6.34	-4.41
+140	2187	0.13514	-5.87	-5.02
+141	2195	0.13514	-6.38	-4.73
+142	2202	0.13514	-6.28	-3.38
+143	2210	0.16337	-6.61	-3.91
+144	2217	0.16337	-6.23	-4.2
+145	2223	0.16337	-6.28	-4.58
+146	2229	0.16337	-6.51	-5.08
+147	2235	0.16337	-7.18	-5.35
+148	2241	0.16337	-6.86	-3.54
+149	2248	0.16337	-7.09	-5.58
+150	2254	0.16337	-7.19	-5.82
+151	2260	0.16337	-7.1	-5.41
+152	2266	0.16337	-6.81	-4.68
+153	2272	0.16337	-6.68	-4.87
+154	2278	0.16337	-6.27	-5.18
+155	2284	0.16337	-6.4	-3.36
+156	2290	0.16337	-6.42	-4.15
+157	2297	0.16337	-6.44	-4.01
+158	2303	0.16337	-6.86	-3.58
+159	2309	0.15022	-6.69	-3.59
+160	2315	0.13904	-6.26	-3.19
+161	2322	0.13904	-6.59	-4.76
+162	2329	0.13904	-6.14	-4.74
+163	2336	0.13904	-6.56	-5.4
+164	2343	0.13904	-6.86	-4.84
+165	2350	0.13904	-6.74	-4.44
+166	2358	0.13904	-6.98	-4.56
+167	2365	0.13904	-6.56	-4.95
+168	2372	0.13904	-6.34	-4.26
+169	2379	0.13904	-6.34	-4.24
+170	2386	0.13904	-6.28	-4.29
+171	2394	0.13904	-6.87	-4.34
+172	2401	0.13904	-6.02	-3.69
+173	2408	0.13904	-6.56	-4.24
+174	2415	0.13904	-6.32	-4.64
+175	2422	0.13904	-6.28	-4.57
+176	2429	0.13904	-6.13	-3.92
+177	2437	0.13904	-6.77	-4.47
+178	2444	0.13904	-6.79	-4.41
+179	2451	0.13904	-6.82	-4.55
+180	2458	0.13904	-6.59	-4.99
+181	2465	0.13904	-7.04	-3.79
+182	2473	0.13904	-7.41	-5.7
+183	2480	0.13904	-7.57	-4.38
+184	2487	0.13904	-7.07	-4.72
+185	2494	0.16779	-6.75	-3.57
+186	2501	0.21154	-6.74	-5.19
+187	2507	0.21154	-6.22	-4.44
+188	2512	0.21154	-6.59	-5.53
+189	2517	0.21154	-6.8	-5.36
+190	2522	0.21154	-6.13	-5.55
+191	2526	0.21154	-6.79	-4.85
+192	2531	0.21154	-7.51	-6.36
+193	2536	0.21154	-6.81	-3.88
+194	2540	0.21154	-6.4	-3.63
+195	2545	0.21154	-6.48	-4.4
+196	2550	0.21154	-6.19	-3.35
+197	2555	0.21154	-6.77	-5.38
+198	2559	0.21154	-7.09	-5.73
+199	2564	0.21154	-6.41	-4.28
+200	2569	0.21154	-6.51	-5.3
+201	2574	0.21154	-6.79	-5.57
+202	2578	0.21154	-6.62	-4.93
+203	2583	0.21154	-6.81	-5.3
+204	2588	0.21154	-6.58	-4.96
+205	2592	0.21154	-6.08	-3.82
+206	2597	0.21154	-6.04	-4.55
+207	2602	0.18769	-7	-4.64
+208	2607	0.16867	-5.95	-3.33
+209	2612	0.16867	-6.89	-4.45
+210	2618	0.16867	-6.85	-4.75
+211	2624	0.16867	-6.9	-4.97
+212	2630	0.16867	-6.31	-4.13
+213	2636	0.16867	-6.46	-4.22
+214	2642	0.16867	-6.97	-5.42
+215	2648	0.16867	-7.65	-5.11
+216	2653	0.16867	-7.26	-5.25
+217	2659	0.16867	-7.42	-5.61
+218	2665	0.16867	-6.94	-6.03
+219	2671	0.16867	-7.04	-6.61
+220	2677	0.16867	-6.58	-6.15
+221	2683	0.16867	-6.39	-6.04
+222	2689	0.16867	-6.51	-6.25
+223	2695	0.16867	-6.36	-5.44
+224	2701	0.16867	-5.96	-3.87
+225	2707	0.16867	-6.95	-4.94
+226	2713	0.16867	-6.6	-5.21
+227	2719	0.16867	-6.57	-4.63
+228	2725	0.16867	-6.26	-4.32
+229	2731	0.16867	-6.8	-6.13
+230	2736	0.16867	-6.04	-4.53
+231	2742	0.16867	-6.48	-5.3
+232	2748	0.16867	-6.6	-5.57
+233	2754	0.16867	-6.46	-3.86
+234	2760	0.16867	-6.48	-4.6
+235	2766	0.10899	-6.96	-4.39
+236	2772	0.08051	-6.46	-4.08
+237	2781	0.08051	-6.58	-4.4
+238	2794	0.08051	-6.4	-3.42
+239	2806	0.08051	-6.92	-4.56
+240	2818	0.08051	-5.99	-4.03
+241	2831	0.08051	-6.81	-4.61
+242	2843	0.08051	-6.77	-3.6
+243	2856	0.08051	-6.99	-3.88
+244	2868	0.08051	-6.5	-7.11
+245	2881	0.09548	-6.39	-6.58
+246	2893	0.09548	-5.73	-4.36
+247	2903	0.09548	-6.57	-5
+248	2914	0.09548	-6.54	-4.76
+249	2924	0.09548	-6.44	-3.52
+250	2935	0.09548	-6.31	-2.86
+251	2945	0.09548	-7.06	-3.19
+252	2956	0.09548	-6.41	-3.18
+253	2966	0.09548	-7.26	-2.61
+254	2977	0.09548	-6.61	-2.19
+255	2987	0.09548	-7.06	-2.14
+256	2998	0.09548	-6.86	-3.16
+257	3008	0.09548	-6.88	-3.86
+258	3019	0.09548	-6.72	-4.33
+259	3029	0.09548	-7.12	-4.34
+260	3040	0.09548	-6.75	-4.11
+261	3050	0.09548	-7.16	-4.36
+262	3061	0.09548	-6.7	-4.19
+263	3071	0.09548	-7.44	-5.19
+264	3082	0.06667	-7.29	-5.35
+265	3092	0.06667	-7.23	-5.7
+266	3107	0.06667	-6.42	-4.41
+267	3122	0.06667	-7.12	-4.54
+268	3137	0.06667	-6.29	-3.44
+269	3152	0.06667	-7.49	-2.96
+270	3167	0.06667	-7.14	-3.46
+271	3182	0.11173	-7.31	-3.98
+272	3197	0.11173	-7.2	-3.26
+273	3206	0.11173	-7.5	-3.69
+274	3215	0.11173	-7.21	-3.9
+275	3224	0.11173	-7.53	-4.73
+276	3233	0.11173	-7.2	-3.96
+277	3242	0.11173	-7.2	-4.63
+278	3251	0.11173	-6.9	-4.27
+279	3260	0.11173	-6.59	-4.51
+280	3269	0.11173	-7.19	-4.86
+281	3278	0.11173	-7.65	-4.6
+282	3287	0.11173	-6.77	-4.7
+283	3295	0.11173	-7.36	-4.78
+284	3304	0.11173	-7.11	-4.84
+285	3313	0.11173	-7.53	-4.13
+286	3322	0.11173	-7.57	-3.84
+287	3331	0.11173	-6.91	-3.84
+288	3340	0.11173	-7.22	-3.67
+289	3349	0.11173	-7.3	-5.15
+290	3358	0.11173	-6.91	-4.63
+291	3367	0.01715	-6.61	-4.2
+292	3376	0.01715	-6.82	-4.87
+293	3434	0.01715	-6.36	-4.11
+294	3493	0.01715	-6.63	-4.04
+294.5	3522	0.01715	-6.5	-3.86
+295	3551	0.01715	-6.69	-4
+295.5	3580	0.01715	-6.73	-3.78
+296	3609	0.01715	-6.28	-2.16
+296.5	3638	0.01715	-6.02	0.13
+297	3668	0.01715	-5.97	-2.05
+297.5	3697	0.01715	-6.27	-1.98
+298	3726	0.01715	-6.08	-0.63
+298.5	3755	0.01715	-6.38	-4.15
+299	3784	0.01715	-6.51	-3.23
+299.5	3813	0.01715	-6.3	-1.23
+300	3843	0.01715	-6.44	-1.33
+300.5	3872	0.01715	-7.11	-2.38
+301	3901	0.04135	-6.42	-2.64
+301.5	3930	0.04135	-6.79	-3.37
+302	3942	0.04135	-6.78	-3.58
+302.5	3954	0.04135	-6.96	-2.4
+303	3966	0.04135	-6.92	-2.73
+303.5	3978	0.04135	-6.5	-2.21
+304	3990	0.04135	-6.55	-2.81
+304.5	4003	0.04135	-7.13	-3.36
+305	4015	0.04135	-6.97	-1.88
+305.5	4027	0.04135	-7.23	-2
+306	4039	0.04135	-6.52	-2.71
+306.5	4051	0.045	-7.22	-3.84
+307	4063	0.045	-6.58	-4.29
+307.5	4074	0.045	-7.01	-3.8
+308	4085	0.045	-6.91	-4.77
+308.5	4096	0.045	-7.28	-3.45
+309	4107	0.045	-6.97	-2.93
+309.5	4119	0.045	-7.08	-4.65
+310	4130	0.045	-6.81	-4.5
+310.5	4141	0.045	-7.34	-4.53
+311	4152	0.01134	-6.54	-3.83
+311.5	4163	0.01134	-7.62	-5.64
+312	4207	0.01134	-7.43	-5.54
+312.5	4251	0.01134	-7.6	-3.7
+313	4295	0.01134	-7.33	-3.19
+313.5	4339	0.01134	-7.46	-5.01
+314	4383	0.01134	-7.46	-5.38
+314.5	4428	0.01134	-7.15	-3.65
+315	4472	0.01134	-6.75	-3.09
+315.5	4516	0.01134	-7.78	-4.35
+316	4560	0.01134	-7.32	-3.51
+316.5	4604	0.01134	-6.36	-3.74
+317	4648	0.01134	-7.4	-5.82
+317.5	4692	0.01134	-7.15	-4.77
+318	4736	0.01134	-6.98	-4.88
+318.5	4780	0.01134	-7.25	-4.86
+319	4824	0.01134	-6.98	-4.79
+319.5	4868	0.01134	-7.43	-4.84
+320	4912	0.01134	-6.65	-4.92

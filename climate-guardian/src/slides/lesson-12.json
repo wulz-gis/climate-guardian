@@ -1,0 +1,81 @@
+{
+  "lesson": 12,
+  "title": "最长气温观测",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "最长气温观测",
+      "subtitle": "气候小卫士 | 第12课",
+      "duration": 40
+    },
+    {
+      "type": "objective",
+      "title": "本课目标",
+      "bullets": [
+        "认识仪器观测时期最长气温序列的意义",
+        "理解连续观测与观测标准变化的影响",
+        "学会阅读长期气温时间序列"
+      ],
+      "duration": 90
+    },
+    {
+      "type": "video",
+      "title": "情景导入",
+      "video": "/assets/videos/lesson-12-intro.mp4",
+      "placeholder": "/assets/images/lesson-12-intro.jpg",
+      "questions": ["为什么需要连续几十年、上百年的气温记录？"],
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "最长观测概念",
+      "content": "长期、连续、规范的仪器记录，具有重要的科学价值",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "观测规范变化",
+      "content": "仪器更替、百叶箱环境、站点迁移都会影响观测数据",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "数据处理",
+      "content": "同质化处理去除非气候性变化，识别真实气候趋势",
+      "duration": 120
+    },
+    {
+      "type": "chart",
+      "title": "百年温度序列",
+      "chartType": "line",
+      "dataSrc": "/assets/data/lesson-12-century-temp.csv",
+      "duration": 180
+    },
+    {
+      "type": "interaction",
+      "title": "序列解读",
+      "task": "缩放不同时间段，识别阶段性升温/降温特征",
+      "duration": 180
+    },
+    {
+      "type": "discussion",
+      "title": "讨论思考",
+      "questions": [
+        "如何保证观测的连续性与可靠性？",
+        "课堂与校园能否开展连续的电子化观测记录？"
+      ],
+      "duration": 180
+    },
+    {
+      "type": "summary",
+      "title": "要点回顾",
+      "bullets": [
+        "长期观测数据极其珍贵",
+        "观测条件变化需要科学处理",
+        "多源数据交叉验证很重要"
+      ],
+      "duration": 90
+    }
+  ]
+}

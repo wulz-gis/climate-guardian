@@ -1,0 +1,11 @@
+{
+  "dataset_short_name": "ITRDB_CANA426",
+  "type": "Tree Ring Width (mm)",
+  "local_path": "data/data/cana426-rwl-noaa.txt",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana426-rwl-noaa.txt",
+  "dataset_doi": null,
+  "sha256": "37e96f7a7bc3879e593d7ad5032594d7968d6609e2fece9d2a442c47e4b43890",
+  "citation": "NOAA NCEI WDS Paleoclimatology: Tree Ring Measurements CANA426. Accessed 2025-11-02.",
+  "created_at": "2025-11-02T00:10:18.140912+00:00",
+  "citation_guidelines_url": "https://www.ncei.noaa.gov/access/paleo-search/citation"
+}
