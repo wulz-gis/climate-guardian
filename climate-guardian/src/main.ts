@@ -13,10 +13,13 @@ import { renderChart } from './components/ChartRenderer'
 /**
  * 启动应用：加载幻灯片 JSON，渲染 DOM，并初始化 Reveal 与图表。
  * - 使用 import.meta.env.BASE_URL 保证在 GitHub Pages 子路径下能正确解析资源。
+ * - 通过 window.location.origin 拼接为绝对 URL，避免在开发环境中构造无效基地址。
  */
 async function bootstrap(): Promise<void> {
-  // 生产环境下从 public/slides 读取课件 JSON
-  const slidesUrl = new URL('slides/lesson-01.json', import.meta.env.BASE_URL).toString()
+  // 构造绝对基地址（如 http://localhost:5175/climate-guardian/ 或 https://wulz-gis.github.io/climate-guardian/）
+  const absoluteBase = new URL(import.meta.env.BASE_URL, window.location.origin)
+  // 从 public/slides 读取课件 JSON
+  const slidesUrl = new URL('slides/lesson-01.json', absoluteBase).toString()
   const res = await fetch(slidesUrl)
   const json = await res.json()
 
