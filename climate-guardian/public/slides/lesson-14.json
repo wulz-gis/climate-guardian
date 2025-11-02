@@ -2,27 +2,32 @@
   "title": "第14课：气温变化的空间差异",
   "slides": [
     {
-      "type": "title",
-      "content": "第14课：气温变化的空间差异"
+      "type": "cover",
+      "title": "第14课：气温变化的空间差异",
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "objective",
       "content": "学习目标",
-      "data": [
+      "title": "学习目标",
+      "bullets": [
         "认识不同地区气温变化速率的空间差异（地图/热力图表达）",
         "学会读图识别“增温热点/相对缓慢区域”",
         "理解影响空间差异的因素（纬度、距海、地形、城市化等）"
-      ]
+      ],
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "discussion",
       "content": "思考题",
-      "question": [
+      "title": "思考题",
+      "questions": [
         "**情景导入（5分钟）**",
         "**基础知识（15分钟）**",
         "**互动实践（15分钟）**",
         "**总结与讨论（10分钟）**"
-      ]
+      ],
+      "duration": 120
     }
   ]
 }

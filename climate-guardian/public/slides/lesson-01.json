@@ -24,7 +24,9 @@
       "title": "情景导入",
       "video": "/assets/videos/lesson-01-intro.mp4",
       "placeholder": "/assets/images/lesson-01-intro.jpg",
-      "questions": ["在哪里测得的气温更规范？为什么？"],
+      "questions": [
+        "在哪里测得的气温更规范？为什么？"
+      ],
       "duration": 120
     },
     {

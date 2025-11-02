@@ -1,0 +1,81 @@
+{
+  "lesson": 1,
+  "title": "认识温度和气温",
+  "duration": 45,
+  "slides": [
+    {
+      "type": "cover",
+      "title": "认识温度和气温",
+      "subtitle": "气候小卫士 | 第1课",
+      "duration": 40
+    },
+    {
+      "type": "objective",
+      "title": "本课目标",
+      "bullets": [
+        "区分“温度”与“气温”的概念与联系",
+        "理解标准气温测量方法与影响因素",
+        "学会读取与解释气温数据和基础图表"
+      ],
+      "duration": 90
+    },
+    {
+      "type": "video",
+      "title": "情景导入",
+      "video": "/assets/videos/lesson-01-intro.mp4",
+      "placeholder": "/assets/images/lesson-01-intro.jpg",
+      "questions": ["在哪里测得的气温更规范？为什么？"],
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "温度 vs 气温",
+      "content": "温度：物体冷热程度；气温：空气温度（离地1.5–2 m，通风遮光）",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "测量规范",
+      "content": "百叶箱环境、避免阳光直射、离地高度、读数记录格式（℃）",
+      "duration": 120
+    },
+    {
+      "type": "concept",
+      "title": "影响因素",
+      "content": "太阳辐射、云量、风、地表材料（城市热岛）",
+      "duration": 120
+    },
+    {
+      "type": "chart",
+      "title": "校园气温差异",
+      "chartType": "heatmap",
+      "dataSrc": "/assets/data/lesson-01-sample.csv",
+      "duration": 180
+    },
+    {
+      "type": "interaction",
+      "title": "互动操作",
+      "task": "点击地图查看不同位置照片与数据，选择影响气温的主要因素",
+      "duration": 180
+    },
+    {
+      "type": "discussion",
+      "title": "讨论思考",
+      "questions": [
+        "哪些因素会让读数偏离“标准气温”？",
+        "如何在校园内获得更规范的气温数据？"
+      ],
+      "duration": 180
+    },
+    {
+      "type": "summary",
+      "title": "要点回顾",
+      "bullets": [
+        "温度≠气温；测量需规范环境",
+        "太阳、通风、地表影响读数",
+        "标准数据助力科学对比"
+      ],
+      "duration": 90
+    }
+  ]
+}

@@ -2,27 +2,32 @@
   "title": "第18课：冰川时代",
   "slides": [
     {
-      "type": "title",
-      "content": "第18课：冰川时代"
+      "type": "cover",
+      "title": "第18课：冰川时代",
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "objective",
       "content": "学习目标",
-      "data": [
+      "title": "学习目标",
+      "bullets": [
         "认识冰川时代的概念与时间范围（冰期与间冰期）",
         "理解冰川形成与消退的主要成因（轨道、温室气体、反馈）",
         "学会用图片与数据识别冰期特征并分析其影响"
-      ]
+      ],
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "discussion",
       "content": "思考题",
-      "question": [
+      "title": "思考题",
+      "questions": [
         "**情景导入（5分钟）**",
         "**基础知识（15分钟）**",
         "**互动实践（15分钟）**",
         "**总结与讨论（10分钟）**"
-      ]
+      ],
+      "duration": 120
     }
   ]
 }

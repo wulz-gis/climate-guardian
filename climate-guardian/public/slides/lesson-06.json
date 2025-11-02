@@ -2,32 +2,39 @@
   "title": "第6课：雨水的秘密",
   "slides": [
     {
-      "type": "title",
-      "content": "第6课：雨水的秘密"
+      "type": "cover",
+      "title": "第6课：雨水的秘密",
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "objective",
       "content": "学习目标",
-      "data": [
+      "title": "学习目标",
+      "bullets": [
         "认识降水的不同形式（雨、雪、冰雹）",
         "学会制作简易雨量器",
         "了解降水量对植物生长的影响"
-      ]
+      ],
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "discussion",
       "content": "思考题",
-      "question": [
+      "title": "思考题",
+      "questions": [
         "**情景导入（5分钟）**",
         "**基础知识（15分钟）**",
         "**互动实践（15分钟）**",
         "**总结与讨论（10分钟）**"
-      ]
+      ],
+      "duration": 120
     },
     {
       "type": "chart",
       "content": "数据可视化",
-      "data": "assets/data/lesson-06-sample.csv"
+      "chartType": "line",
+      "dataSrc": "/assets/data/lesson-06-sample.csv",
+      "duration": 120
     }
   ]
 }

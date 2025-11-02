@@ -1,0 +1,38 @@
+{
+  "title": "第15课：全球变暖的证据",
+  "slides": [
+    {
+      "type": "title",
+      "content": "第15课：全球变暖的证据"
+    },
+    {
+      "type": "text",
+      "content": "学习目标",
+      "data": [
+        "了解全球变暖的主要证据",
+        "学会识别全球变暖的现象",
+        "培养科学观察能力"
+      ]
+    },
+    {
+      "type": "text",
+      "content": "思考题",
+      "question": [
+        "**情景导入（5分钟）**",
+        "**基础知识（15分钟）**",
+        "**互动实践（15分钟）**",
+        "**总结与讨论（10分钟）**"
+      ]
+    },
+    {
+      "type": "chart",
+      "content": "数据可视化",
+      "data": "assets/data/lesson-15-sample.csv"
+    },
+    {
+      "type": "chart",
+      "content": "关键图表",
+      "data": "assets/images/lesson-15-evidence.png"
+    }
+  ]
+}

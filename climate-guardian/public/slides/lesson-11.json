@@ -2,27 +2,32 @@
   "title": "第11课：梅雨",
   "slides": [
     {
-      "type": "title",
-      "content": "第11课：梅雨"
+      "type": "cover",
+      "title": "第11课：梅雨",
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "objective",
       "content": "学习目标",
-      "data": [
+      "title": "学习目标",
+      "bullets": [
         "认识梅雨的时间、范围与成因（东亚季风、梅雨锋）",
         "学会用图片和数据读懂梅雨期降水的时空分布与过程特征",
         "理解梅雨对生活的影响与基本安全防护常识"
-      ]
+      ],
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "discussion",
       "content": "思考题",
-      "question": [
+      "title": "思考题",
+      "questions": [
         "**情景导入（5分钟）**",
         "**基础知识（15分钟）**",
         "**互动实践（15分钟）**",
         "**总结与讨论（10分钟）**"
-      ]
+      ],
+      "duration": 120
     }
   ]
 }

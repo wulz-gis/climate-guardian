@@ -2,32 +2,38 @@
   "title": "第23课：消失的海冰",
   "slides": [
     {
-      "type": "title",
-      "content": "第23课：消失的海冰"
+      "type": "cover",
+      "title": "第23课：消失的海冰",
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "objective",
       "content": "学习目标",
-      "data": [
+      "title": "学习目标",
+      "bullets": [
         "认识海冰的作用与类型（一年冰、多年冰），理解海冰的长期减少现象",
         "学会用图片与数据分析海冰的季节性、年际变化与长期趋势",
         "理解海冰减少对生态与气候系统的影响"
-      ]
+      ],
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "discussion",
       "content": "思考题",
-      "question": [
+      "title": "思考题",
+      "questions": [
         "**情景导入（5分钟）**",
         "**基础知识（15分钟）**",
         "**互动实践（15分钟）**",
         "**总结与讨论（10分钟）**"
-      ]
+      ],
+      "duration": 120
     },
     {
       "type": "video",
       "content": "课程引入",
-      "src": "assets/videos/lesson-23-intro.mp4"
+      "src": "assets/videos/lesson-23-intro.mp4",
+      "duration": 120
     }
   ]
 }

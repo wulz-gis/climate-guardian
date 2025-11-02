@@ -40,32 +40,53 @@ interface LessonMeta {
 
 const lessons = ref<LessonMeta[]>([])
 
+/**
+ * 在页面挂载后预加载 25 个课程 JSON。
+ * - 使用 BASE_URL 拼接资源路径，确保在 GitHub Pages 子路径下正常加载。
+ * - 失败时保持条目为空以避免渲染阻塞。
+ */
 onMounted(async () => {
-  // 预加载 25 课 json 取标题与知识点
   for (let i = 1; i <= 25; i++) {
-    const res = await fetch(`${import.meta.env.BASE_URL}slides/lesson-${String(i).padStart(2, '0')}.json`)
-    const json = (await res.json()) as LessonMeta
-    lessons.value[i - 1] = json
+    try {
+      const url = `${import.meta.env.BASE_URL}slides/lesson-${String(i).padStart(2, '0')}.json`
+      const res = await fetch(url)
+      if (!res.ok) continue
+      const json = (await res.json()) as LessonMeta
+      lessons.value[i - 1] = json
+    } catch {
+      // ignore network/json errors for robustness
+    }
   }
 })
 
+/**
+ * 获取指定课程序号的标题。
+ * - 当 JSON 尚未加载时返回占位文案。
+ */
 function title(idx: number): string {
   return lessons.value[idx - 1]?.title || `第 ${idx} 课`
 }
 
+/**
+ * 提取课程的知识点标签（最多 3 个）。
+ * - 仅从 type 为 'text' 的幻灯片中截取前 8 个字符。
+ * - 若不存在，返回默认标签集合。
+ */
 function tags(idx: number): string[] {
   const k = lessons.value[idx - 1]?.slides
     ?.filter((s) => s.type === 'text' && s.content)
     .slice(0, 3)
-    .map((s) => s.content!.replace(/[，。！？；：]/g, '').slice(0, 8)) || []
-  return k.length ? k : ['气候变化', '数据探究', '行动方案']
+    .map((s) => (s.content ? s.content.replace(/[，。！？；：]/g, '').slice(0, 8) : '')) || []
+  return k.filter(Boolean).length ? k.filter(Boolean) : ['气候变化', '数据探究', '行动方案']
 }
 
+/**
+ * 返回课程缩略图 URL（若存在映射）。
+ * - 为少量课程提供预设图片映射，其余返回 null 显示占位色块。
+ */
 function thumb(idx: number): string | null {
-  // 优先 public/assets/images/lesson-xx-*.png
   try {
     const base = import.meta.env.BASE_URL
-    // 伪映射：实际运行时可由构建脚本生成映射表，这里简化
     const map: Record<number, string> = {
       15: `${base}assets/images/lesson-15-evidence.png`,
       21: `${base}assets/images/lesson-21-co2-temp.png`,

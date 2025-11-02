@@ -2,27 +2,32 @@
   "title": "第9课：一天中的温度变化",
   "slides": [
     {
-      "type": "title",
-      "content": "第9课：一天中的温度变化"
+      "type": "cover",
+      "title": "第9课：一天中的温度变化",
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "objective",
       "content": "学习目标",
-      "data": [
+      "title": "学习目标",
+      "bullets": [
         "观测并记录一天中的温度变化规律",
         "理解温度日变化的原因",
         "学会制作温度变化曲线图"
-      ]
+      ],
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "discussion",
       "content": "思考题",
-      "question": [
+      "title": "思考题",
+      "questions": [
         "**情景导入（5分钟）**",
         "**基础知识（15分钟）**",
         "**互动实践（15分钟）**",
         "**总结与讨论（10分钟）**"
-      ]
+      ],
+      "duration": 120
     }
   ]
 }

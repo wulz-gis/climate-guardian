@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/lesson.schema.json",
+  "title": "Climate Guardian Lesson",
+  "type": "object",
+  "required": ["title", "slides"],
+  "properties": {
+    "lesson": { "type": "integer", "minimum": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "duration": { "type": "integer", "minimum": 1 },
+    "slides": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["type"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "cover",
+              "objective",
+              "video",
+              "concept",
+              "chart",
+              "interaction",
+              "discussion",
+              "summary",
+              "title",
+              "text"
+            ]
+          },
+          "title": { "type": "string" },
+          "subtitle": { "type": "string" },
+          "content": { "type": "string" },
+          "duration": { "type": "integer", "minimum": 1 },
+          "bullets": { "type": "array", "items": { "type": "string" } },
+          "points": { "type": "array", "items": { "type": "string" } },
+          "questions": { "type": "array", "items": { "type": "string" } },
+          "question": { "type": "array", "items": { "type": "string" } },
+          "video": { "type": "string" },
+          "placeholder": { "type": "string" },
+          "task": { "type": "string" },
+          "chartType": { "type": "string", "enum": ["line", "bar", "heatmap"] },
+          "dataSrc": { "type": "string" },
+          "src": { "type": "string" },
+          "data": { "type": "string" },
+          "body": { "type": "string" },
+          "description": { "type": "string" }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "type": { "const": "cover" } } },
+            "then": { "required": ["title"] }
+          },
+          {
+            "if": { "properties": { "type": { "const": "objective" } } },
+            "then": { "required": ["title", "bullets"] }
+          },
+          {
+            "if": { "properties": { "type": { "const": "video" } } },
+            "then": { "required": ["title", "video"] }
+          },
+          {
+            "if": { "properties": { "type": { "const": "concept" } } },
+            "then": { "required": ["title", "content"] }
+          },
+          {
+            "if": { "properties": { "type": { "const": "chart" } } },
+            "then": {
+              "anyOf": [
+                { "required": ["chartType", "dataSrc"] },
+                { "required": ["chartType", "src"] },
+                { "required": ["chartType", "data"] },
+                { "required": ["dataSrc"] }
+              ]
+            }
+          },
+          {
+            "if": { "properties": { "type": { "const": "interaction" } } },
+            "then": { "required": ["title", "task"] }
+          },
+          {
+            "if": { "properties": { "type": { "const": "discussion" } } },
+            "then": {
+              "anyOf": [
+                { "required": ["title", "questions"] },
+                { "required": ["title", "question"] }
+              ]
+            }
+          },
+          {
+            "if": { "properties": { "type": { "const": "summary" } } },
+            "then": {
+              "anyOf": [
+                { "required": ["title", "bullets"] },
+                { "required": ["title", "points"] }
+              ]
+            }
+          },
+          {
+            "if": { "properties": { "type": { "const": "title" } } },
+            "then": { "required": ["content"] }
+          },
+          {
+            "if": { "properties": { "type": { "const": "text" } } },
+            "then": {
+              "anyOf": [
+                { "required": ["content"] },
+                { "required": ["data"] },
+                { "required": ["question"] },
+                { "required": ["questions"] },
+                { "required": ["body"] },
+                { "required": ["description"] }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

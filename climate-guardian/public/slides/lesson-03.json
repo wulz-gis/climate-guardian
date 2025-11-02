@@ -2,32 +2,39 @@
   "title": "第3课：石笋和岩芯的秘密",
   "slides": [
     {
-      "type": "title",
-      "content": "第3课：石笋和岩芯的秘密"
+      "type": "cover",
+      "title": "第3课：石笋和岩芯的秘密",
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "objective",
       "content": "学习目标",
-      "data": [
+      "title": "学习目标",
+      "bullets": [
         "认识石笋（洞穴钟乳石）与岩芯（湖芯/海洋沉积）作为气候代用资料",
         "理解石笋同位素与生长速率、岩芯层理与指标记录气候的信息",
         "学会用图片与数据解读古气候线索并构建时间轴"
-      ]
+      ],
+      "duration": 120
     },
     {
-      "type": "text",
+      "type": "discussion",
       "content": "思考题",
-      "question": [
+      "title": "思考题",
+      "questions": [
         "**情景导入（5分钟）**",
         "**基础知识（15分钟）**",
         "**互动实践（15分钟）**",
         "**总结与讨论（10分钟）**"
-      ]
+      ],
+      "duration": 120
     },
     {
       "type": "chart",
       "content": "数据可视化",
-      "data": "assets/data/lesson-03-sample.csv"
+      "chartType": "line",
+      "dataSrc": "/assets/data/lesson-03-sample.csv",
+      "duration": 120
     }
   ]
 }

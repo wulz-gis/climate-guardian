@@ -73,6 +73,11 @@ jobs:
           echo "File count:" && find climate-guardian/public/assets/videos -type f | wc -l || true
           sha256sum climate-guardian/public/assets/videos/*.mp4 || true
 
+      - name: Validate lesson JSON schema
+        run: |
+          cd climate-guardian
+          npm run validate
+
       - name: Build
         run: |
           cd climate-guardian

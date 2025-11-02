@@ -3,7 +3,7 @@
   <div class="cover">
     <div class="cover__bg"></div>
     <div class="cover__content">
-      <h1 class="cover__title">气候小卫士 · 25 讲</h1>
+      <h1 class="cover__title">气候变化小卫士</h1>
       <p class="cover__subtitle">从数据到行动，解锁气候变化真相</p>
       <router-link to="/nav" class="cover__btn">开始学习</router-link>
     </div>
