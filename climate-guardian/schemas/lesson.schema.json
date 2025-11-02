@@ -51,41 +51,103 @@
         "allOf": [
           {
             "if": { "properties": { "type": { "const": "cover" } } },
-            "then": { "required": ["title"] }
+            "then": {
+              "properties": { "title": { "type": "string" } },
+              "required": ["title"]
+            }
           },
           {
             "if": { "properties": { "type": { "const": "objective" } } },
-            "then": { "required": ["title", "bullets"] }
+            "then": {
+              "properties": {
+                "title": { "type": "string" },
+                "bullets": { "type": "array", "items": { "type": "string" } }
+              },
+              "required": ["title", "bullets"]
+            }
           },
           {
             "if": { "properties": { "type": { "const": "video" } } },
-            "then": { "required": ["title", "video"] }
+            "then": {
+              "properties": {
+                "title": { "type": "string" },
+                "video": { "type": "string" }
+              },
+              "required": ["title", "video"]
+            }
           },
           {
             "if": { "properties": { "type": { "const": "concept" } } },
-            "then": { "required": ["title", "content"] }
+            "then": {
+              "properties": {
+                "title": { "type": "string" },
+                "content": { "type": "string" }
+              },
+              "required": ["title", "content"]
+            }
           },
           {
             "if": { "properties": { "type": { "const": "chart" } } },
             "then": {
               "anyOf": [
-                { "required": ["chartType", "dataSrc"] },
-                { "required": ["chartType", "src"] },
-                { "required": ["chartType", "data"] },
-                { "required": ["dataSrc"] }
+                {
+                  "properties": {
+                    "chartType": { "type": "string", "enum": ["line", "bar", "heatmap"] },
+                    "dataSrc": { "type": "string" }
+                  },
+                  "required": ["chartType", "dataSrc"]
+                },
+                {
+                  "properties": {
+                    "chartType": { "type": "string", "enum": ["line", "bar", "heatmap"] },
+                    "src": { "type": "string" }
+                  },
+                  "required": ["chartType", "src"]
+                },
+                {
+                  "properties": {
+                    "chartType": { "type": "string", "enum": ["line", "bar", "heatmap"] },
+                    "data": { "type": "string" }
+                  },
+                  "required": ["chartType", "data"]
+                },
+                {
+                  "properties": {
+                    "dataSrc": { "type": "string" }
+                  },
+                  "required": ["dataSrc"]
+                }
               ]
             }
           },
           {
             "if": { "properties": { "type": { "const": "interaction" } } },
-            "then": { "required": ["title", "task"] }
+            "then": {
+              "properties": {
+                "title": { "type": "string" },
+                "task": { "type": "string" }
+              },
+              "required": ["title", "task"]
+            }
           },
           {
             "if": { "properties": { "type": { "const": "discussion" } } },
             "then": {
               "anyOf": [
-                { "required": ["title", "questions"] },
-                { "required": ["title", "question"] }
+                {
+                  "properties": {
+                    "title": { "type": "string" },
+                    "questions": { "type": "array", "items": { "type": "string" } }
+                  },
+                  "required": ["title", "questions"]
+                },
+                {
+                  "properties": {
+                    "title": { "type": "string" },
+                    "question": { "type": "array", "items": { "type": "string" } }
+                  },
+                  "required": ["title", "question"]
+                }
               ]
             }
           },
@@ -93,25 +155,40 @@
             "if": { "properties": { "type": { "const": "summary" } } },
             "then": {
               "anyOf": [
-                { "required": ["title", "bullets"] },
-                { "required": ["title", "points"] }
+                {
+                  "properties": {
+                    "title": { "type": "string" },
+                    "bullets": { "type": "array", "items": { "type": "string" } }
+                  },
+                  "required": ["title", "bullets"]
+                },
+                {
+                  "properties": {
+                    "title": { "type": "string" },
+                    "points": { "type": "array", "items": { "type": "string" } }
+                  },
+                  "required": ["title", "points"]
+                }
               ]
             }
           },
           {
             "if": { "properties": { "type": { "const": "title" } } },
-            "then": { "required": ["content"] }
+            "then": {
+              "properties": { "content": { "type": "string" } },
+              "required": ["content"]
+            }
           },
           {
             "if": { "properties": { "type": { "const": "text" } } },
             "then": {
               "anyOf": [
-                { "required": ["content"] },
-                { "required": ["data"] },
-                { "required": ["question"] },
-                { "required": ["questions"] },
-                { "required": ["body"] },
-                { "required": ["description"] }
+                { "properties": { "content": { "type": "string" } }, "required": ["content"] },
+                { "properties": { "data": { "type": "string" } }, "required": ["data"] },
+                { "properties": { "question": { "type": "array", "items": { "type": "string" } } }, "required": ["question"] },
+                { "properties": { "questions": { "type": "array", "items": { "type": "string" } } }, "required": ["questions"] },
+                { "properties": { "body": { "type": "string" } }, "required": ["body"] },
+                { "properties": { "description": { "type": "string" } }, "required": ["description"] }
               ]
             }
           }

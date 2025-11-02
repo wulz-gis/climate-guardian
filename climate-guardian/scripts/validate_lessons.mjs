@@ -13,7 +13,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import process from 'node:process'
-import Ajv from 'ajv'
+import Ajv2020 from 'ajv/dist/2020.js'
 
 /**
  * Load JSON schema and compile validator.
@@ -24,7 +24,7 @@ function loadValidator() {
   const schemaPath = path.resolve('schemas/lesson.schema.json')
   const schemaRaw = fs.readFileSync(schemaPath, 'utf-8')
   const schema = JSON.parse(schemaRaw)
-  const ajv = new Ajv({ strict: true, allErrors: true })
+  const ajv = new Ajv2020({ strict: true, allErrors: true })
   const validate = ajv.compile(schema)
   return validate
 }
@@ -70,7 +70,7 @@ function validateAll() {
  * Main entry: run validation and set exit code.
  */
 function main() {
-  const { failures, total, okCount } = validateAll()
+  const { failures } = validateAll()
   if (failures.length > 0) {
     console.error('\nSchema validation failed. Please fix the files above.')
     process.exitCode = 1
@@ -78,3 +78,6 @@ function main() {
     console.log('\nAll lesson JSON files passed schema validation.')
   }
 }
+
+// Invoke main entrypoint to ensure script actually runs when called.
+main()

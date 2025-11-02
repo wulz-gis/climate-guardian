@@ -31,8 +31,8 @@
     },
     {
       "type": "video",
-      "content": "课程引入",
-      "src": "assets/videos/lesson-23-intro.mp4",
+      "title": "课程引入",
+      "video": "assets/videos/lesson-23-intro.mp4",
       "duration": 120
     }
   ]
