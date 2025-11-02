@@ -1,81 +1,28 @@
 {
-  "lesson": 11,
-  "title": "梅雨",
-  "duration": 45,
+  "title": "第11课：梅雨",
   "slides": [
     {
-      "type": "cover",
-      "title": "梅雨",
-      "subtitle": "气候小卫士 | 第11课",
-      "duration": 40
+      "type": "title",
+      "content": "第11课：梅雨"
     },
     {
-      "type": "objective",
-      "title": "本课目标",
-      "bullets": [
-        "认识梅雨的时间、范围与成因",
-        "学会用图片和数据读懂梅雨期降水特征",
-        "理解梅雨对生活的影响与安全防护"
-      ],
-      "duration": 90
+      "type": "text",
+      "content": "学习目标",
+      "data": [
+        "认识梅雨的时间、范围与成因（东亚季风、梅雨锋）",
+        "学会用图片和数据读懂梅雨期降水的时空分布与过程特征",
+        "理解梅雨对生活的影响与基本安全防护常识"
+      ]
     },
     {
-      "type": "video",
-      "title": "情景导入",
-      "video": "/assets/videos/lesson-11-intro.mp4",
-      "placeholder": "/assets/images/lesson-11-intro.jpg",
-      "questions": ["为什么每年这段时间总是连着下雨？这段雨叫什么？"],
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "梅雨概念",
-      "content": "初夏时段在长江中下游出现的持续性降雨期，通常6-7月",
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "形成成因",
-      "content": "东亚夏季风输送暖湿气流，与北侧冷空气交汇形成梅雨锋",
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "主要特征",
-      "content": "阴雨连绵、湿度大、日照少、累积降水高，存在过程性波动",
-      "duration": 120
-    },
-    {
-      "type": "chart",
-      "title": "梅雨期降水过程",
-      "chartType": "line",
-      "dataSrc": "/assets/data/lesson-11-meiyu-rain.csv",
-      "duration": 180
-    },
-    {
-      "type": "interaction",
-      "title": "过程观察",
-      "task": "拖动时间滑块观察梅雨期降水过程，标注峰值与间歇段",
-      "duration": 180
-    },
-    {
-      "type": "discussion",
-      "title": "讨论思考",
-      "questions": [
-        "梅雨与洪涝风险的关系？",
-        "校园与社区的防范措施有哪些？"
-      ],
-      "duration": 180
-    },
-    {
-      "type": "summary",
-      "title": "要点回顾",
-      "bullets": [
-        "梅雨是东亚特有的气候现象",
-        "梅雨锋是主要降雨系统",
-        "需要做好防潮防霉措施"
-      ],
-      "duration": 90
+      "type": "text",
+      "content": "思考题",
+      "question": [
+        "**情景导入（5分钟）**",
+        "**基础知识（15分钟）**",
+        "**互动实践（15分钟）**",
+        "**总结与讨论（10分钟）**"
+      ]
     }
   ]
 }

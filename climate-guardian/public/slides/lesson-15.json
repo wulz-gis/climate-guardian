@@ -1,81 +1,38 @@
 {
-  "lesson": 15,
-  "title": "全球变暖的证据",
-  "duration": 45,
+  "title": "第15课：全球变暖的证据",
   "slides": [
     {
-      "type": "cover",
-      "title": "全球变暖的证据",
-      "subtitle": "气候小卫士 | 第15课",
-      "duration": 40
+      "type": "title",
+      "content": "第15课：全球变暖的证据"
     },
     {
-      "type": "objective",
-      "title": "本课目标",
-      "bullets": [
+      "type": "text",
+      "content": "学习目标",
+      "data": [
         "了解全球变暖的主要证据",
         "学会识别全球变暖的现象",
         "培养科学观察能力"
-      ],
-      "duration": 90
+      ]
     },
     {
-      "type": "video",
-      "title": "情景导入",
-      "video": "/assets/videos/lesson-15-intro.mp4",
-      "placeholder": "/assets/images/lesson-15-intro.jpg",
-      "questions": ["有什么证据说明地球在变暖？"],
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "全球变暖概念",
-      "content": "地球表面平均温度的持续上升，是科学观测证实的现象",
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "主要证据类型",
-      "content": "温度记录、冰雪变化、海平面上升、物候变化、极端天气",
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "证据科学性",
-      "content": "数据来源可靠、观测方法规范、统计分析严谨",
-      "duration": 120
+      "type": "text",
+      "content": "思考题",
+      "question": [
+        "**情景导入（5分钟）**",
+        "**基础知识（15分钟）**",
+        "**互动实践（15分钟）**",
+        "**总结与讨论（10分钟）**"
+      ]
     },
     {
       "type": "chart",
-      "title": "全球温度变化",
-      "chartType": "line",
-      "dataSrc": "/assets/data/lesson-15-global-temp.csv",
-      "duration": 180
+      "content": "数据可视化",
+      "data": "assets/data/lesson-15-sample.csv"
     },
     {
-      "type": "interaction",
-      "title": "证据分类",
-      "task": "从证据库中分类检索全球变暖证据，评估可靠性",
-      "duration": 180
-    },
-    {
-      "type": "discussion",
-      "title": "讨论思考",
-      "questions": [
-        "为什么需要这么多不同类型的证据？",
-        "作为小学生，我们如何观察和记录身边的全球变暖证据？"
-      ],
-      "duration": 180
-    },
-    {
-      "type": "summary",
-      "title": "要点回顾",
-      "bullets": [
-        "多源独立证据共同证明全球变暖",
-        "观测数据具有科学严谨性",
-        "多种证据形成科学共识"
-      ],
-      "duration": 90
+      "type": "chart",
+      "content": "关键图表",
+      "data": "assets/images/lesson-15-evidence.png"
     }
   ]
 }

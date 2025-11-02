@@ -1,81 +1,28 @@
 {
-  "lesson": 9,
-  "title": "一天中的温度变化",
-  "duration": 45,
+  "title": "第9课：一天中的温度变化",
   "slides": [
     {
-      "type": "cover",
-      "title": "一天中的温度变化",
-      "subtitle": "气候小卫士 | 第9课",
-      "duration": 40
+      "type": "title",
+      "content": "第9课：一天中的温度变化"
     },
     {
-      "type": "objective",
-      "title": "本课目标",
-      "bullets": [
+      "type": "text",
+      "content": "学习目标",
+      "data": [
         "观测并记录一天中的温度变化规律",
         "理解温度日变化的原因",
         "学会制作温度变化曲线图"
-      ],
-      "duration": 90
+      ]
     },
     {
-      "type": "video",
-      "title": "情景导入",
-      "video": "/assets/videos/lesson-09-intro.mp4",
-      "placeholder": "/assets/images/lesson-09-intro.jpg",
-      "questions": ["为什么视频显示凌晨最冷、午后最热？"],
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "日变化规律",
-      "content": "凌晨最低，午后最高，呈现\"两低一高\"的日变化曲线",
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "变化原因",
-      "content": "太阳辐射强度的日变化是温度变化的根本原因",
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "影响因素",
-      "content": "纬度、季节、天气状况、地表性质都会影响温度日变化",
-      "duration": 120
-    },
-    {
-      "type": "chart",
-      "title": "24小时温度变化",
-      "chartType": "line",
-      "dataSrc": "/assets/data/lesson-09-daily-temp.csv",
-      "duration": 180
-    },
-    {
-      "type": "interaction",
-      "title": "互动分析",
-      "task": "查看一天温度曲线，选择最高/最低时段并分析原因",
-      "duration": 180
-    },
-    {
-      "type": "discussion",
-      "title": "讨论思考",
-      "questions": [
-        "不同季节的温度日变化有什么不同？",
-        "城市和农村的温度日变化会有差异吗？"
-      ],
-      "duration": 180
-    },
-    {
-      "type": "summary",
-      "title": "要点回顾",
-      "bullets": [
-        "温度日变化呈现规律性波动",
-        "太阳辐射是变化的根本原因",
-        "云量等因素会影响变化幅度"
-      ],
-      "duration": 90
+      "type": "text",
+      "content": "思考题",
+      "question": [
+        "**情景导入（5分钟）**",
+        "**基础知识（15分钟）**",
+        "**互动实践（15分钟）**",
+        "**总结与讨论（10分钟）**"
+      ]
     }
   ]
 }

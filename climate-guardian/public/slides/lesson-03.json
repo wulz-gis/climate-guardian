@@ -1,81 +1,33 @@
 {
-  "lesson": 3,
-  "title": "石笋和岩芯的秘密",
-  "duration": 45,
+  "title": "第3课：石笋和岩芯的秘密",
   "slides": [
     {
-      "type": "cover",
-      "title": "石笋和岩芯的秘密",
-      "subtitle": "气候小卫士 | 第3课",
-      "duration": 40
+      "type": "title",
+      "content": "第3课：石笋和岩芯的秘密"
     },
     {
-      "type": "objective",
-      "title": "本课目标",
-      "bullets": [
-        "认识石笋与岩芯作为气候代用资料",
-        "理解同位素/层理指标与气候的关系",
-        "学会用图片与数据解读古气候线索"
-      ],
-      "duration": 90
+      "type": "text",
+      "content": "学习目标",
+      "data": [
+        "认识石笋（洞穴钟乳石）与岩芯（湖芯/海洋沉积）作为气候代用资料",
+        "理解石笋同位素与生长速率、岩芯层理与指标记录气候的信息",
+        "学会用图片与数据解读古气候线索并构建时间轴"
+      ]
     },
     {
-      "type": "video",
-      "title": "情景导入",
-      "video": "/assets/videos/lesson-03-intro.mp4",
-      "placeholder": "/assets/images/lesson-03-intro.jpg",
-      "questions": ["没有温度计的年代，科学家如何知道过去的气候？"],
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "石笋的形成",
-      "content": "滴水沉积碳酸盐，生长层记录环境信息，如δ18O和δ13C",
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "岩芯的类型",
-      "content": "湖芯/海洋沉积的粒度、有机质、花粉等指标记录气候变化",
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "年代框架",
-      "content": "层理计数、放射性同位素、事件层（火山灰）确定年代",
-      "duration": 120
+      "type": "text",
+      "content": "思考题",
+      "question": [
+        "**情景导入（5分钟）**",
+        "**基础知识（15分钟）**",
+        "**互动实践（15分钟）**",
+        "**总结与讨论（10分钟）**"
+      ]
     },
     {
       "type": "chart",
-      "title": "石笋同位素变化",
-      "chartType": "line",
-      "dataSrc": "/assets/data/lesson-03-stalagmite.csv",
-      "duration": 180
-    },
-    {
-      "type": "interaction",
-      "title": "交互观察",
-      "task": "查看石笋剖面与岩芯层理图片，使用同位素数据构建时间轴",
-      "duration": 180
-    },
-    {
-      "type": "discussion",
-      "title": "讨论思考",
-      "questions": [
-        "不同指标如何共同指向气候变化？",
-        "为何多指标能提升古气候解释的可靠性？"
-      ],
-      "duration": 180
-    },
-    {
-      "type": "summary",
-      "title": "要点回顾",
-      "bullets": [
-        "石笋同位素记录降水与温度信息",
-        "岩芯层理反映环境变化历史",
-        "多指标交叉验证提升科学结论"
-      ],
-      "duration": 90
+      "content": "数据可视化",
+      "data": "assets/data/lesson-03-sample.csv"
     }
   ]
 }

@@ -1,66 +1,33 @@
 {
-  "title": "消失的海冰",
-  "duration": 45,
+  "title": "第23课：消失的海冰",
   "slides": [
     {
-      "type": "cover",
-      "title": "消失的海冰",
-      "subtitle": "探索海冰减少的现象与影响",
-      "duration": 3
+      "type": "title",
+      "content": "第23课：消失的海冰"
     },
     {
-      "type": "objective",
-      "title": "学习目标",
-      "objectives": [
-        "认识海冰的作用与类型",
-        "理解海冰的长期减少现象",
-        "学会用图片与数据分析海冰的变化趋势"
-      ],
-      "duration": 2
+      "type": "text",
+      "content": "学习目标",
+      "data": [
+        "认识海冰的作用与类型（一年冰、多年冰），理解海冰的长期减少现象",
+        "学会用图片与数据分析海冰的季节性、年际变化与长期趋势",
+        "理解海冰减少对生态与气候系统的影响"
+      ]
+    },
+    {
+      "type": "text",
+      "content": "思考题",
+      "question": [
+        "**情景导入（5分钟）**",
+        "**基础知识（15分钟）**",
+        "**互动实践（15分钟）**",
+        "**总结与讨论（10分钟）**"
+      ]
     },
     {
       "type": "video",
-      "title": "多个年份最小海冰范围对比",
-      "videoSrc": "https://example.com/videos/sea-ice-comparison.mp4",
-      "duration": 5
-    },
-    {
-      "type": "concept",
-      "title": "海冰类型与指标",
-      "content": "海冰分为一年冰和多年冰，通过面积、范围、厚度与体积等指标进行监测",
-      "duration": 8
-    },
-    {
-      "type": "chart",
-      "title": "北极海冰面积变化",
-      "chartType": "line",
-      "dataSrc": "data/arctic-sea-ice-area.csv",
-      "duration": 10
-    },
-    {
-      "type": "interaction",
-      "title": "海冰消失交互分析",
-      "content": "使用多年海冰面积时间序列与卫星海冰图，拖动时间选择最小范围月份并观察趋势",
-      "duration": 12
-    },
-    {
-      "type": "discussion",
-      "title": "讨论与思考",
-      "questions": [
-        "未来趋势与可能的生态连锁效应（食物网、迁徙）是什么？",
-        "我们如何用数据与图片讲清海冰在消失？"
-      ],
-      "duration": 5
-    },
-    {
-      "type": "summary",
-      "title": "课程总结",
-      "keyPoints": [
-        "海冰在持续减少",
-        "反照率反馈是重要的驱动机制",
-        "对生态和气候系统有重要影响"
-      ],
-      "duration": 3
+      "content": "课程引入",
+      "src": "assets/videos/lesson-23-intro.mp4"
     }
   ]
 }

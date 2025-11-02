@@ -1,66 +1,28 @@
 {
-  "title": "冰川时代",
-  "duration": 45,
+  "title": "第18课：冰川时代",
   "slides": [
     {
-      "type": "cover",
-      "title": "冰川时代",
-      "subtitle": "探索冰期-间冰期循环的奥秘",
-      "duration": 3
+      "type": "title",
+      "content": "第18课：冰川时代"
     },
     {
-      "type": "objective",
-      "title": "学习目标",
-      "objectives": [
-        "认识冰川时代的概念与时间范围",
-        "理解冰川形成与消退的主要成因",
+      "type": "text",
+      "content": "学习目标",
+      "data": [
+        "认识冰川时代的概念与时间范围（冰期与间冰期）",
+        "理解冰川形成与消退的主要成因（轨道、温室气体、反馈）",
         "学会用图片与数据识别冰期特征并分析其影响"
-      ],
-      "duration": 2
+      ]
     },
     {
-      "type": "video",
-      "title": "末次盛冰期冰盖范围与海平面变化",
-      "videoSrc": "https://example.com/videos/ice-age-animation.mp4",
-      "duration": 5
-    },
-    {
-      "type": "concept",
-      "title": "冰川时代的概念",
-      "content": "冰川时代包含多次冰期与间冰期，最近一次强烈冰期为末次盛冰期（约2万年前）",
-      "duration": 8
-    },
-    {
-      "type": "chart",
-      "title": "冰期-间冰期温度变化",
-      "chartType": "line",
-      "dataSrc": "data/ice-age-temperature.csv",
-      "duration": 10
-    },
-    {
-      "type": "interaction",
-      "title": "冰期-间冰期交互观察",
-      "content": "使用简化全球温度异常与冰量指数时间序列，拖动时间窗口观察不同阶段",
-      "duration": 12
-    },
-    {
-      "type": "discussion",
-      "title": "讨论与思考",
-      "questions": [
-        "长时间尺度变化与现代气候变化的关系是什么？",
-        "我们如何用数据与图片讲清为什么会有冰川时代？"
-      ],
-      "duration": 5
-    },
-    {
-      "type": "summary",
-      "title": "课程总结",
-      "keyPoints": [
-        "冰期-间冰期循环是地球气候的重要特征",
-        "米兰科维奇周期是主要驱动因素",
-        "冰芯记录提供了重要证据"
-      ],
-      "duration": 3
+      "type": "text",
+      "content": "思考题",
+      "question": [
+        "**情景导入（5分钟）**",
+        "**基础知识（15分钟）**",
+        "**互动实践（15分钟）**",
+        "**总结与讨论（10分钟）**"
+      ]
     }
   ]
 }

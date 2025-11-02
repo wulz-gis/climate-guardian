@@ -1,81 +1,28 @@
 {
-  "lesson": 13,
-  "title": "气温变化的速度",
-  "duration": 45,
+  "title": "第13课：气温变化的速度",
   "slides": [
     {
-      "type": "cover",
-      "title": "气温变化的速度",
-      "subtitle": "气候小卫士 | 第13课",
-      "duration": 40
+      "type": "title",
+      "content": "第13课：气温变化的速度"
     },
     {
-      "type": "objective",
-      "title": "本课目标",
-      "bullets": [
-        "理解气温变化的速度概念（℃/10年）",
-        "学会估算不同时间段的增温/降温速率",
-        "能比较季节与地区速率差异"
-      ],
-      "duration": 90
+      "type": "text",
+      "content": "学习目标",
+      "data": [
+        "理解“气温变化的速度”（趋势斜率，单位℃/10年）",
+        "学会用图片和数据估算不同时间段的增温/降温速率",
+        "能比较季节与地区速率差异，理解“加速变暖”的含义"
+      ]
     },
     {
-      "type": "video",
-      "title": "情景导入",
-      "video": "/assets/videos/lesson-13-intro.mp4",
-      "placeholder": "/assets/images/lesson-13-intro.jpg",
-      "questions": ["哪一段变暖更快？为什么？"],
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "变化速率定义",
-      "content": "℃/10年；通过趋势线斜率计算，反映变暖快慢程度",
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "估算方法",
-      "content": "用两点差/时间、线性拟合思想，避免复杂计算",
-      "duration": 120
-    },
-    {
-      "type": "concept",
-      "title": "加速度概念",
-      "content": "速率随时间的变化；阶段性快慢与自然波动",
-      "duration": 120
-    },
-    {
-      "type": "chart",
-      "title": "增温速率对比",
-      "chartType": "line",
-      "dataSrc": "/assets/data/lesson-13-warming-rate.csv",
-      "duration": 180
-    },
-    {
-      "type": "interaction",
-      "title": "速率计算",
-      "task": "滑动选择时间段，计算该段增温速率并对比",
-      "duration": 180
-    },
-    {
-      "type": "discussion",
-      "title": "讨论思考",
-      "questions": [
-        "什么情况下我们会误判\"变暖速度\"？",
-        "如何向他人解释速率与波动的区别？"
-      ],
-      "duration": 180
-    },
-    {
-      "type": "summary",
-      "title": "要点回顾",
-      "bullets": [
-        "增温速率用℃/10年表示",
-        "不同时间段速率可能不同",
-        "短期波动不等于长期趋势"
-      ],
-      "duration": 90
+      "type": "text",
+      "content": "思考题",
+      "question": [
+        "**情景导入（5分钟）**",
+        "**基础知识（15分钟）**",
+        "**互动实践（15分钟）**",
+        "**总结与讨论（10分钟）**"
+      ]
     }
   ]
 }

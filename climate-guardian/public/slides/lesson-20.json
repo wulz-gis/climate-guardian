@@ -1,66 +1,28 @@
 {
-  "title": "二氧化碳与能源消耗",
-  "duration": 45,
+  "title": "第20课：二氧化碳与能源消耗",
   "slides": [
     {
-      "type": "cover",
-      "title": "二氧化碳与能源消耗",
-      "subtitle": "探索不同能源类型的排放差异",
-      "duration": 3
+      "type": "title",
+      "content": "第20课：二氧化碳与能源消耗"
     },
     {
-      "type": "objective",
-      "title": "学习目标",
-      "objectives": [
-        "认识不同能源类型与二氧化碳排放的关系",
-        "理解碳强度、排放系数、电网排放因子等基本概念",
+      "type": "text",
+      "content": "学习目标",
+      "data": [
+        "认识不同能源类型与二氧化碳排放的关系（煤、油、气、可再生）",
+        "理解“碳强度”“排放系数”“电网排放因子”等基本概念",
         "能用图片与数据估算能耗对应的二氧化碳排放并比较场景"
-      ],
-      "duration": 2
+      ]
     },
     {
-      "type": "video",
-      "title": "不同能源与排放差异",
-      "videoSrc": "https://example.com/videos/energy-emissions-comparison.mp4",
-      "duration": 5
-    },
-    {
-      "type": "concept",
-      "title": "能源与CO₂排放关系",
-      "content": "不同能源类型有不同的排放系数：煤>油>气；可再生能源发电环节近零直接排放",
-      "duration": 8
-    },
-    {
-      "type": "chart",
-      "title": "不同能源排放系数对比",
-      "chartType": "bar",
-      "dataSrc": "data/energy-emission-factors.csv",
-      "duration": 10
-    },
-    {
-      "type": "interaction",
-      "title": "能源-CO₂关联交互计算",
-      "content": "使用示例能耗数据与排放系数，输入不同用能场景自动计算CO₂排放",
-      "duration": 12
-    },
-    {
-      "type": "discussion",
-      "title": "讨论与思考",
-      "questions": [
-        "在学校与家庭层面如何降低能耗与排放？",
-        "未来能源结构如何变化才能更低碳？"
-      ],
-      "duration": 5
-    },
-    {
-      "type": "summary",
-      "title": "课程总结",
-      "keyPoints": [
-        "不同能源类型排放差异显著",
-        "电网排放因子影响用电碳排放",
-        "节能和可再生能源是减排关键"
-      ],
-      "duration": 3
+      "type": "text",
+      "content": "思考题",
+      "question": [
+        "**情景导入（5分钟）**",
+        "**基础知识（15分钟）**",
+        "**互动实践（15分钟）**",
+        "**总结与讨论（10分钟）**"
+      ]
     }
   ]
 }

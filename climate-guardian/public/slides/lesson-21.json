@@ -1,66 +1,38 @@
 {
-  "title": "二氧化碳与气温变化的关系",
-  "duration": 45,
+  "title": "第21课：二氧化碳与气温变化的关系",
   "slides": [
     {
-      "type": "cover",
-      "title": "二氧化碳与气温变化的关系",
-      "subtitle": "探索CO₂浓度与全球气温的关联",
-      "duration": 3
+      "type": "title",
+      "content": "第21课：二氧化碳与气温变化的关系"
     },
     {
-      "type": "objective",
-      "title": "学习目标",
-      "objectives": [
-        "理解二氧化碳浓度与全球气温变化的关系",
+      "type": "text",
+      "content": "学习目标",
+      "data": [
+        "理解二氧化碳浓度与全球气温变化的关系（辐射强迫与增温）",
         "学会用图片与数据读懂CO₂与温度异常的时间序列与关联",
-        "能用科学语言表达相关与因果的区别"
-      ],
-      "duration": 2
+        "能用科学语言表达“相关与因果”的区别与注意事项"
+      ]
     },
     {
-      "type": "video",
-      "title": "Keeling曲线与全球温度异常",
-      "videoSrc": "https://example.com/videos/co2-temperature-correlation.mp4",
-      "duration": 5
-    },
-    {
-      "type": "concept",
-      "title": "温室效应与辐射强迫",
-      "content": "CO₂增加带来额外吸收与增温压力，但需要考虑时间滞后和其他驱动因素",
-      "duration": 8
+      "type": "text",
+      "content": "思考题",
+      "question": [
+        "**情景导入（5分钟）**",
+        "**基础知识（15分钟）**",
+        "**互动实践（15分钟）**",
+        "**总结与讨论（10分钟）**"
+      ]
     },
     {
       "type": "chart",
-      "title": "CO₂浓度与温度异常时间序列",
-      "chartType": "dual-axis-line",
-      "dataSrc": "data/co2-temperature-timeline.csv",
-      "duration": 10
+      "content": "数据可视化",
+      "data": "assets/data/lesson-21-sample.csv"
     },
     {
-      "type": "interaction",
-      "title": "CO₂-气温关联交互分析",
-      "content": "使用示例CO₂浓度与温度异常数据，叠加曲线并选择不同时间窗口计算相关系数",
-      "duration": 12
-    },
-    {
-      "type": "discussion",
-      "title": "讨论与思考",
-      "questions": [
-        "为什么需要考虑其他因子与时间滞后？",
-        "在沟通中怎样避免误导性的相关？"
-      ],
-      "duration": 5
-    },
-    {
-      "type": "summary",
-      "title": "课程总结",
-      "keyPoints": [
-        "CO₂与气温存在相关性",
-        "需要考虑多因素和因果关系",
-        "科学表达要避免误导"
-      ],
-      "duration": 3
+      "type": "chart",
+      "content": "关键图表",
+      "data": "assets/images/lesson-21-co2-temp.png"
     }
   ]
 }

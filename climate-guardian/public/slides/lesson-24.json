@@ -1,66 +1,28 @@
 {
-  "title": "植物的气候信号",
-  "duration": 45,
+  "title": "第24课：植物的气候信号",
   "slides": [
     {
-      "type": "cover",
-      "title": "植物的气候信号",
-      "subtitle": "探索气候变化对植物物候的影响",
-      "duration": 3
+      "type": "title",
+      "content": "第24课：植物的气候信号"
     },
     {
-      "type": "objective",
-      "title": "学习目标",
-      "objectives": [
+      "type": "text",
+      "content": "学习目标",
+      "data": [
         "认识气候变化对植物的影响",
         "了解物候变化的现象",
         "学会观察植物的季节变化"
-      ],
-      "duration": 2
+      ]
     },
     {
-      "type": "video",
-      "title": "校园四季植物物候变化",
-      "videoSrc": "https://example.com/videos/plant-phenology-timelapse.mp4",
-      "duration": 5
-    },
-    {
-      "type": "concept",
-      "title": "物候学的基本概念",
-      "content": "物候学研究生物季节性现象与环境因子关系，包括发芽、展叶、开花、结果、落叶等现象",
-      "duration": 8
-    },
-    {
-      "type": "chart",
-      "title": "植物物候期变化趋势",
-      "chartType": "line",
-      "dataSrc": "data/plant-phenology-changes.csv",
-      "duration": 10
-    },
-    {
-      "type": "interaction",
-      "title": "物候图像与数据交互",
-      "content": "查看植物物候图片集与历史物候数据，识别关键物候事件并比较不同年份差异",
-      "duration": 12
-    },
-    {
-      "type": "discussion",
-      "title": "讨论与思考",
-      "questions": [
-        "物候变化对农业生产和生态系统的影响是什么？",
-        "如何利用物候知识指导农业生产和生态保护？"
-      ],
-      "duration": 5
-    },
-    {
-      "type": "summary",
-      "title": "课程总结",
-      "keyPoints": [
-        "气候变化影响植物物候",
-        "温度升高导致春季物候提前",
-        "物候观测对气候变化研究很重要"
-      ],
-      "duration": 3
+      "type": "text",
+      "content": "思考题",
+      "question": [
+        "**情景导入（5分钟）**",
+        "**基础知识（15分钟）**",
+        "**互动实践（15分钟）**",
+        "**总结与讨论（10分钟）**"
+      ]
     }
   ]
 }
