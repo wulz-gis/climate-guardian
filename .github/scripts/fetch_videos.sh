@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-set -euo pipefail
+# 容错：不因单个下载失败而退出，仅保留未设置变量时报错
+set -u
 
 # 仅在 CI 环境执行
 if [[ "${CI:-false}" != "true" ]]; then
@@ -26,11 +27,26 @@ urls=(
 
 for u in "${urls[@]}"; do
   f="$VID_DIR/$(basename "$u")"
-  if [[ ! -f "$f" ]]; then
-    curl -L -o "$f" "$u"
-  else
+  if [[ -f "$f" ]]; then
     echo "Skip existing $f"
+    continue
   fi
+  echo "Downloading $(basename "$u")"
+  # 使用失败不退出策略，且清理可能生成的空文件
+  if ! curl -fL --retry 3 --retry-delay 2 --max-time 120 -o "$f" "$u"; then
+    echo "Warn: failed to download $u" >&2
+    rm -f "$f"
+    continue
+  fi
+  # 基于大小过滤明显的错误下载（<1KB）
+  size=$(wc -c < "$f" 2>/dev/null || echo 0)
+  if [[ ${size:-0} -lt 1024 ]]; then
+    echo "Warn: file too small ($size bytes), removing: $f" >&2
+    rm -f "$f"
+    continue
+  fi
+  echo "Saved $f (${size} bytes)"
+
 done
 
 echo "All videos ready."

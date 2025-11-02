@@ -38,7 +38,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: climate-guardian/public/assets/videos
-          key: videos-${{ hashFiles('assets/videos/lesson-key-video-links.csv') }}
+          key: videos-${{ hashFiles('climate-guardian/public/assets/videos/lesson-key-video-links.csv') }}
 
       # 下载引导视频到 public/assets/videos，使其随构建一并发布
       - name: Download intro videos
