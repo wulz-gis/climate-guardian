@@ -1,6 +1,6 @@
 """视频下载与元数据旁注生成脚本。
 
-本脚本读取 `data/videos/lesson-key-video-links.csv` 与 `data/videos/link-health.csv`，
+本脚本读取 `assets/videos/lesson-key-video-links.csv` 与 `assets/videos/link-health.csv`，
 尝试下载可获取的视频文件（优先使用直接 MP4 链接），并在输出文件旁生成元数据 JSON。
 
 使用约束：仅用于教学目的，不用于商业用途；请遵守来源站点的使用条款与版权声明。
@@ -9,8 +9,8 @@
     python3 scripts/download_videos.py --outdir assets/videos/downloads --overwrite
 
 参数说明：
-    --csv PATH         指定关键视频链接CSV（默认：data/videos/lesson-key-video-links.csv）
-    --health PATH      指定链接健康检查CSV（默认：data/videos/link-health.csv）
+    --csv PATH         指定关键视频链接CSV（默认：assets/videos/lesson-key-video-links.csv）
+    --health PATH      指定链接健康检查CSV（默认：assets/videos/link-health.csv）
     --outdir PATH      下载输出目录（默认：assets/videos/downloads）
     --overwrite        若目标文件存在，则备份后覆盖（默认：跳过）
     --use-yt-dlp       允许使用 yt-dlp 处理页面/YouTube链接（若本机已安装）
@@ -36,8 +36,8 @@ from typing import Dict, List, Optional, Tuple
 
 # ------------------------------ 常量与工具函数 ------------------------------
 
-DEFAULT_CSV = os.path.join("data", "videos", "lesson-key-video-links.csv")
-DEFAULT_HEALTH = os.path.join("data", "videos", "link-health.csv")
+DEFAULT_CSV = os.path.join("assets", "videos", "lesson-key-video-links.csv")
+DEFAULT_HEALTH = os.path.join("assets", "videos", "link-health.csv")
 DEFAULT_OUTDIR = os.path.join("assets", "videos", "downloads")
 
 

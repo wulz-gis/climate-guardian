@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# 容错：不因单个下载失败而退出，仅保留未设置变量时报错
+# 统一包装器：在 CI 中使用 Python 下载器按 CSV 下载视频并生成元数据
+# 容错：如 Python 或依赖不可用，仅输出提示并不中断其他步骤
 set -u
 
 # 仅在 CI 环境执行
@@ -9,44 +10,34 @@ if [[ "${CI:-false}" != "true" ]]; then
 fi
 
 VID_DIR="climate-guardian/public/assets/videos"
+CSV="assets/videos/lesson-key-video-links.csv"
+HEALTH="assets/videos/link-health.csv"
+
 mkdir -p "$VID_DIR"
 
-echo "Downloading intro videos…"
-# 示例：第 17–25 课需要 9 个 30 s 以内 MP4（可扩展）
-urls=(
-  "https://github.com/user-assets/lesson-17-intro.mp4"
-  "https://github.com/user-assets/lesson-18-intro.mp4"
-  "https://github.com/user-assets/lesson-19-intro.mp4"
-  "https://github.com/user-assets/lesson-20-intro.mp4"
-  "https://github.com/user-assets/lesson-21-intro.mp4"
-  "https://github.com/user-assets/lesson-22-intro.mp4"
-  "https://github.com/user-assets/lesson-23-intro.mp4"
-  "https://github.com/user-assets/lesson-24-intro.mp4"
-  "https://github.com/user-assets/lesson-25-intro.mp4"
-)
+# 版本与环境信息
+python -V || true
+pip show yt-dlp || true
+command -v yt-dlp && yt-dlp --version || true
 
-for u in "${urls[@]}"; do
-  f="$VID_DIR/$(basename "$u")"
-  if [[ -f "$f" ]]; then
-    echo "Skip existing $f"
-    continue
-  fi
-  echo "Downloading $(basename "$u")"
-  # 使用失败不退出策略，且清理可能生成的空文件
-  if ! curl -fL --retry 3 --retry-delay 2 --max-time 120 -o "$f" "$u"; then
-    echo "Warn: failed to download $u" >&2
-    rm -f "$f"
-    continue
-  fi
-  # 基于大小过滤明显的错误下载（<1KB）
-  size=$(wc -c < "$f" 2>/dev/null || echo 0)
-  if [[ ${size:-0} -lt 1024 ]]; then
-    echo "Warn: file too small ($size bytes), removing: $f" >&2
-    rm -f "$f"
-    continue
-  fi
-  echo "Saved $f (${size} bytes)"
+# 使用 Python 下载器；如失败，打印错误但不退出
+set +e
+python scripts/download_videos.py \
+  --csv "$CSV" \
+  --health "$HEALTH" \
+  --outdir "$VID_DIR" \
+  --overwrite \
+  --use-yt-dlp
+status=$?
+set -e
 
-done
+if [[ $status -ne 0 ]]; then
+  echo "Warn: Python downloader returned non-zero status: $status" >&2
+fi
 
-echo "All videos ready."
+# 调试：列出目录与文件摘要
+ls -lah "$VID_DIR" || true
+find "$VID_DIR" -maxdepth 1 -type f -name "*.mp4" -print || true
+find "$VID_DIR" -maxdepth 1 -type f -name "*.metadata.json" -print || true
+
+echo "All videos ready via Python downloader."

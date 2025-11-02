@@ -33,24 +33,45 @@ jobs:
           cd climate-guardian
           npm ci
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install yt-dlp (for page/YouTube)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install yt-dlp
+
       # 缓存已下载的视频，避免每次都重复下载
       - name: Cache downloaded videos
         uses: actions/cache@v4
         with:
           path: climate-guardian/public/assets/videos
-          key: videos-${{ hashFiles('climate-guardian/public/assets/videos/lesson-key-video-links.csv') }}
+          key: videos-${{ hashFiles('assets/videos/lesson-key-video-links.csv') }}
+          restore-keys: |
+            videos-
 
-      # 下载引导视频到 public/assets/videos，使其随构建一并发布
-      - name: Download intro videos
-        continue-on-error: true
+      # 统一使用 Python 下载器，根据 CSV 自动处理页面/YouTube/MP4直链
+      - name: Download key lesson videos (Python)
         run: |
-          chmod +x .github/scripts/fetch_videos.sh
-          .github/scripts/fetch_videos.sh
+          mkdir -p climate-guardian/public/assets/videos
+          python scripts/download_videos.py \
+            --csv assets/videos/lesson-key-video-links.csv \
+            --health assets/videos/link-health.csv \
+            --outdir climate-guardian/public/assets/videos \
+            --overwrite \
+            --use-yt-dlp
+        env:
+          CI: true
 
       - name: List videos directory (debug)
         run: |
+          echo "Cache key: videos-${{ hashFiles('assets/videos/lesson-key-video-links.csv') }}"
           ls -lah climate-guardian/public/assets/videos || true
-          ls -lah climate-guardian/public/assets/videos/downloads || true
+          du -sh climate-guardian/public/assets/videos || true
+          echo "File count:" && find climate-guardian/public/assets/videos -type f | wc -l || true
+          sha256sum climate-guardian/public/assets/videos/*.mp4 || true
 
       - name: Build
         run: |
