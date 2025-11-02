@@ -7,6 +7,7 @@ import { defineConfig } from 'vite'
  * - Pins dev server port to 5174 to match current preview URL.
  */
 export default defineConfig({
+  base: '/climate-guardian/',
   server: {
     port: 5174,
     hmr: {
